@@ -152,6 +152,11 @@
       .main-content { flex-direction: column-reverse; }
       .map-side { position: relative; top: 0; height: 350px; width: 100%; }
     }
+
+    /* 網站版本資訊與新版提示 */
+    .site-version-footer { position: fixed; right: 12px; bottom: 12px; z-index: 9998; padding: 5px 9px; border-radius: 8px; background: rgba(255,255,255,.94); border: 1px solid #dce3eb; box-shadow: 0 2px 8px rgba(0,0,0,.10); font-size: 11px; color: #536579; pointer-events: none; }
+    .site-update-banner { position: fixed; bottom: 48px; left: 50%; transform: translateX(-50%); z-index: 10000; background: #1a365d; color: #fff; padding: 12px 16px; border-radius: 12px; box-shadow: 0 6px 24px rgba(0,0,0,.22); display: none; align-items: center; gap: 14px; max-width: calc(100% - 36px); box-sizing: border-box; }
+    .site-update-banner button { border: 0; background: #fff; color: #1a365d; font-weight: 700; border-radius: 7px; padding: 9px 12px; cursor: pointer; white-space: nowrap; }
   </style>
 </head>
 <body>
@@ -196,6 +201,12 @@
     </div>
   </div>
 
+  <footer class="site-version-footer" id="site-version-footer"></footer>
+  <div id="site-update-banner" class="site-update-banner" role="status" aria-live="polite">
+    <span>網站已有新版本</span>
+    <button id="site-update-button" type="button">重新載入新版</button>
+  </div>
+
   <!-- 引入 Leaflet 地圖套件 JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
@@ -203,6 +214,49 @@
     // 靜態 JSON 測試版：不初始化 Firebase SDK，不向 Firestore 發送請求。
     // 測試時 JSON 放在本 HTML 同一個資料夾中。
     const SNAPSHOT_URL = './public-data.json';
+
+    // 每次正式發布 HTML 新版時，請更新此版本號（只需修改這一行）。
+    const SITE_VERSION = '2026.10.25.2';
+    document.getElementById('site-version-footer').textContent = `網站版本 ${SITE_VERSION}`;
+
+    // 檢查線上的 HTML，而非 JSON；查詢參數降低讀到舊快取的機率。
+    // 版本檢查失敗時保持原頁正常運作，不干擾票券與地圖。
+    let availableSiteVersion = null;
+    async function checkForSiteUpdate() {
+      try {
+        const url = new URL('./index.html', window.location.href);
+        url.searchParams.set('_version_check', String(Date.now()));
+        const response = await fetch(url.href, { cache: 'no-store' });
+        if (!response.ok) return;
+        const html = await response.text();
+        const match = html.match(/const SITE_VERSION = ['"]([^'"]+)['"]/);
+        if (!match || match[1] === SITE_VERSION) return;
+        availableSiteVersion = match[1];
+        document.getElementById('site-update-banner').style.display = 'flex';
+      } catch (error) {
+        console.info('網站版本檢查暫時無法完成', error);
+      }
+    }
+
+    document.getElementById('site-update-button').addEventListener('click', () => {
+      if (!availableSiteVersion) return;
+      const url = new URL('./index.html', window.location.href);
+      url.searchParams.delete('test_update');
+      url.searchParams.set('v', availableSiteVersion === 'TEST' ? SITE_VERSION : availableSiteVersion);
+      window.location.assign(url.href);
+    });
+    // 僅限本機的通知介面測試：網址加上 ?test_update=1，不修改正式網站資料。
+    // 這只驗證提示與重新載入按鈕，不代表遠端版本偵測已完成端到端測試。
+    const isLocalTest = ['localhost', '127.0.0.1'].includes(window.location.hostname);
+    const testParams = new URLSearchParams(window.location.search);
+    if (isLocalTest && testParams.get('test_update') === '1') {
+      availableSiteVersion = 'TEST';
+      document.getElementById('site-update-banner').style.display = 'flex';
+    }
+    // 首次進站後檢查一次；已開啟的分頁每 5 分鐘檢查一次。
+    checkForSiteUpdate();
+    setInterval(checkForSiteUpdate, 5 * 60 * 1000);
+
 
     // 小型快照介面，讓原本的情報牆及雪場渲染程式維持不變。
     function collectionSnapshot(records) {
