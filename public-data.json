@@ -1,0 +1,2593 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-25T04:11:41.238Z",
+  "system_config": {
+    "active_season": "2026-2027"
+  },
+  "resorts_info": {
+    "akakura-kanko-resort": {
+      "name_zh": "赤倉觀光度假滑雪場",
+      "name_ja": "赤倉観光リゾートスキー場",
+      "name_en": "Akakura Kanko Resort",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 36.8868768,
+      "lon": 138.1775916
+    },
+    "akakura-onsen": {
+      "name_zh": "赤倉溫泉滑雪場",
+      "name_ja": "赤倉温泉スキー場",
+      "name_en": "Akakura Onsen",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 36.890901,
+      "lon": 138.176707
+    },
+    "ani-ski-resort": {
+      "name_zh": "阿仁滑雪場 [秋田]",
+      "name_ja": "阿仁スキー場",
+      "name_en": "Ani Ski Resort",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 39.9573111,
+      "lon": 140.49767
+    },
+    "aomori-spring": {
+      "name_zh": "青森 Spring 滑雪度假村 [青森]",
+      "name_ja": "青森スプリング・スキーリゾート",
+      "name_en": "Aomori Spring",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 40.6953,
+      "lon": 140.2819897
+    },
+    "appi-kogen": {
+      "name_zh": "安比高原滑雪場 [岩手]",
+      "name_ja": "安比高原スキー場",
+      "name_en": "Appi Kogen",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 40.0022571,
+      "lon": 140.9705409
+    },
+    "asahidake": {
+      "name_zh": "旭岳滑雪場",
+      "name_ja": "大雪山旭岳ロープウェイ",
+      "name_en": "Asahidake",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 43.6577085,
+      "lon": 142.8125269
+    },
+    "cupid-valley": {
+      "name_zh": "丘比特山滑雪場",
+      "name_ja": "キューピットバレイ",
+      "name_en": "Cupid Valley",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 37.055035,
+      "lon": 138.4845041
+    },
+    "dynaland": {
+      "name_zh": "Dynaland [岐阜]",
+      "name_ja": "ダイナランド",
+      "name_en": "Dynaland",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 35.9902088,
+      "lon": 136.8705351
+    },
+    "fujimi-panorama-resort": {
+      "name_zh": "富士見麗景度假村",
+      "name_ja": "富士見パノラマリゾート",
+      "name_en": "Fujimi Panorama Resort",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 35.9106451,
+      "lon": 138.2069865
+    },
+    "fujiten-snow-resort": {
+      "name_zh": "富士天滑雪度假村 [山梨]",
+      "name_ja": "ふじてんスノーリゾート",
+      "name_en": "Fujiten Snow Resort",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 35.4421219,
+      "lon": 138.6879071
+    },
+    "furano-ski-resort": {
+      "name_zh": "富良野滑雪場",
+      "name_ja": "富良野スキー場",
+      "name_en": "Furano Ski Resort",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 43.3249606,
+      "lon": 142.3532411
+    },
+    "gala-yuzawa": {
+      "name_zh": "GALA 湯澤滑雪場",
+      "name_ja": "GALA湯沢スキー場",
+      "name_en": "GALA Yuzawa",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 36.9507163,
+      "lon": 138.7995577
+    },
+    "geto-kogen": {
+      "name_zh": "夏油高原滑雪場 [岩手]",
+      "name_ja": "夏油高原スキー場",
+      "name_en": "Geto Kogen",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 39.2366246,
+      "lon": 140.9062609
+    },
+    "grandeco-snow-resort": {
+      "name_zh": "Grandeco 滑雪度假村 [福島]",
+      "name_ja": "グランデコスノーリゾート",
+      "name_en": "Grandeco Snow Resort",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 37.69551020000001,
+      "lon": 140.1327018
+    },
+    "hachimantai-resort": {
+      "name_zh": "八幡平度假村 [岩手]",
+      "name_ja": "八幡平リゾート",
+      "name_en": "Hachimantai Resort",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 39.8943758,
+      "lon": 140.9753814
+    },
+    "hakkoda-ski-resort": {
+      "name_zh": "八甲田滑雪場 [青森]",
+      "name_ja": "八甲田スキー場",
+      "name_en": "Hakkoda Ski Resort",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 40.6793611,
+      "lon": 140.8326515
+    },
+    "hakuba-cortina": {
+      "name_zh": "白馬 Cortina 滑雪場",
+      "name_ja": "白馬コルチナスキー場",
+      "name_en": "Hakuba Cortina",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.7770681,
+      "lon": 137.8851453
+    },
+    "hakuba-goryu": {
+      "name_zh": "白馬五龍滑雪場",
+      "name_ja": "エイブル白馬五竜",
+      "name_en": "Hakuba Goryu",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.662937,
+      "lon": 137.836664
+    },
+    "hakuba-happo-one": {
+      "name_zh": "白馬八方尾根滑雪場",
+      "name_ja": "白馬八方尾根スキー場",
+      "name_en": "Hakuba Happo-One",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.7019841,
+      "lon": 137.8369446
+    },
+    "hakuba-iwatake-snow-field": {
+      "name_zh": "白馬岩岳雪場",
+      "name_ja": "白馬岩岳スノーフィールド",
+      "name_en": "Hakuba Iwatake Snow Field",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.7168103,
+      "lon": 137.8570099
+    },
+    "hakuba-norikura-onsen": {
+      "name_zh": "白馬乘鞍溫泉滑雪場",
+      "name_ja": "白馬乗鞍温泉スキー場",
+      "name_en": "Hakuba Norikura Onsen",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.7658832,
+      "lon": 137.8739806
+    },
+    "hakuba47-winter-sports-park": {
+      "name_zh": "Hakuba47 冬季運動公園",
+      "name_ja": "Hakuba47 ウインタースポーツパーク",
+      "name_en": "Hakuba47 Winter Sports Park",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.6853102,
+      "lon": 137.828297
+    },
+    "hoshino-resorts-alts-bandai": {
+      "name_zh": "星野度假村 磐梯山 [福島]",
+      "name_ja": "星野リゾート アルツ磐梯",
+      "name_en": "Hoshino Resorts Alts Bandai",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 37.5857807,
+      "lon": 140.0336164
+    },
+    "hoshino-resorts-nekoma": {
+      "name_zh": "貓魔滑雪場 [福島]",
+      "name_ja": "星野リゾート 猫魔スキー場",
+      "name_en": "Hoshino Resorts Nekoma",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 37.627181,
+      "lon": 140.037977
+    },
+    "hoshino-resorts-tomamu": {
+      "name_zh": "星野度假村 Tomamu",
+      "name_ja": "星野リゾート トマム",
+      "name_en": "Hoshino Resorts Tomamu",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 43.0633092,
+      "lon": 142.6313058
+    },
+    "hunter-mountain-shiobara": {
+      "name_zh": "獵人山鹽原 [栃木]",
+      "name_ja": "ハンターマウンテン塩原",
+      "name_en": "Hunter Mountain Shiobara",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 36.9381364,
+      "lon": 139.7539208
+    },
+    "ikenotaira-onsen": {
+      "name_zh": "池之平溫泉滑雪場",
+      "name_ja": "池の平温泉アルペンブリックスキー場",
+      "name_en": "Ikenotaira Onsen",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 36.8725467,
+      "lon": 138.171897
+    },
+    "inawashiro-ski-resort": {
+      "name_zh": "豬苗代滑雪場 [福島]",
+      "name_ja": "猪苗代スキー場",
+      "name_en": "Inawashiro Ski Resort",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 37.5752673,
+      "lon": 140.0946582
+    },
+    "ishiuchi-maruyama": {
+      "name_zh": "石打丸山滑雪場",
+      "name_ja": "石打丸山スキー場",
+      "name_en": "Ishiuchi Maruyama",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 36.976544,
+      "lon": 138.7943833
+    },
+    "iwappara-ski-resort": {
+      "name_zh": "岩原滑雪場",
+      "name_ja": "岩原スキー場",
+      "name_en": "Iwappara Ski Resort",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 36.938189,
+      "lon": 138.84056
+    },
+    "joetsu-kokusai": {
+      "name_zh": "上越國際滑雪場",
+      "name_ja": "上越国際スキー場",
+      "name_en": "Joetsu Kokusai",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 37.0332819,
+      "lon": 138.8194255
+    },
+    "kagura-ski-resort": {
+      "name_zh": "神樂滑雪場",
+      "name_ja": "かぐらスキー場",
+      "name_en": "Kagura Ski Resort",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 36.8598524,
+      "lon": 138.7265013
+    },
+    "kamui-ski-links": {
+      "name_zh": "神居滑雪場",
+      "name_ja": "カムイスキーリンクス",
+      "name_en": "Kamui Ski Links",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 43.704967,
+      "lon": 142.187102
+    },
+    "kandatsu-snow-resort": {
+      "name_zh": "神立スノーリゾート (神立滑雪場)",
+      "name_ja": "神立スノーリゾート",
+      "name_en": "Kandatsu Snow Resort",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 36.9111172,
+      "lon": 138.8128136
+    },
+    "karuizawa-prince-hotel": {
+      "name_zh": "輕井澤王子大飯店滑雪場",
+      "name_ja": "軽井沢プリンスホテルスキー場",
+      "name_en": "Karuizawa Prince Hotel",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.3405106,
+      "lon": 138.6436871
+    },
+    "kashimayari": {
+      "name_zh": "鹿島槍滑雪場",
+      "name_ja": "鹿島槍スキー場",
+      "name_en": "Kashimayari",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.5969431,
+      "lon": 137.8254561
+    },
+    "kawaba-ski-resort": {
+      "name_zh": "川場滑雪場 [群馬]",
+      "name_ja": "川場スキー場",
+      "name_en": "Kawaba Ski Resort",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 36.7689011,
+      "lon": 139.1080597
+    },
+    "kiroro-snow-world": {
+      "name_zh": "喜樂樂雪世界",
+      "name_ja": "キロロスノーワールド",
+      "name_en": "Kiroro Snow World",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 43.0677043,
+      "lon": 140.9895954
+    },
+    "kitashiga-komaruyama": {
+      "name_zh": "北志賀小丸山滑雪場",
+      "name_ja": "北志賀小丸山スキー場",
+      "name_en": "Kitashiga Komaruyama",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.794799,
+      "lon": 138.448638
+    },
+    "kurodake": {
+      "name_zh": "黑岳滑雪場",
+      "name_ja": "大雪山層雲峡・黒岳ロープウェイ",
+      "name_en": "Kurodake",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 43.7240581,
+      "lon": 142.9469449
+    },
+    "kurumayama-kogen-skypark": {
+      "name_zh": "車山高原 SKYPARK",
+      "name_ja": "車山高原SKYPARKスキー場",
+      "name_en": "Kurumayama Kogen SKYPARK",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.1020748,
+      "lon": 138.208437
+    },
+    "kusatsu-onsen": {
+      "name_zh": "草津溫泉滑雪場 [群馬]",
+      "name_ja": "草津温泉スキー場",
+      "name_en": "Kusatsu Onsen",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 36.6284168,
+      "lon": 138.5871725
+    },
+    "lotte-arai-resort": {
+      "name_zh": "樂天新井度假村",
+      "name_ja": "ロッテアライリゾート",
+      "name_en": "Lotte Arai Resort",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 36.9905198,
+      "lon": 138.1813323
+    },
+    "madarao-kogen": {
+      "name_zh": "斑尾高原滑雪場",
+      "name_ja": "斑尾高原スキー場",
+      "name_en": "Madarao Kogen",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.8524572,
+      "lon": 138.2906058
+    },
+    "maiko-snow-resort": {
+      "name_zh": "舞子高原滑雪場",
+      "name_ja": "舞子スノーリゾート",
+      "name_en": "Maiko Snow Resort",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 36.9828206,
+      "lon": 138.8249672
+    },
+    "manza-onsen": {
+      "name_zh": "萬座溫泉滑雪場 [群馬]",
+      "name_ja": "万座温泉スキー場",
+      "name_en": "Manza Onsen",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 36.63576219999999,
+      "lon": 138.5062212
+    },
+    "marunuma-kogen": {
+      "name_zh": "丸沼高原滑雪場 [群馬]",
+      "name_ja": "丸沼高原スキー場",
+      "name_en": "Marunuma Kogen",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 36.814633,
+      "lon": 139.3300313
+    },
+    "matsunoyama-onsen": {
+      "name_zh": "松之山溫泉滑雪場",
+      "name_ja": "松之山温泉スキー場",
+      "name_en": "Matsunoyama Onsen",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 37.0521897,
+      "lon": 138.5975518
+    },
+    "minakami-kogen": {
+      "name_zh": "水上高原滑雪度假村 [群馬]",
+      "name_ja": "水上高原スキーリゾート",
+      "name_en": "Minakami Kogen",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 36.855499,
+      "lon": 139.0765476
+    },
+    "minowa-ski-resort": {
+      "name_zh": "箕輪滑雪場 [福島]",
+      "name_ja": "箕輪スキー場",
+      "name_en": "Minowa Ski Resort",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 37.6524464,
+      "lon": 140.2530725
+    },
+    "miyagi-zao-eboshi": {
+      "name_zh": "宮城藏王 Ebony [宮城]",
+      "name_ja": "みやぎ蔵王えぼしリゾート",
+      "name_en": "Miyagi Zao Eboshi",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 38.1266811,
+      "lon": 140.5287472
+    },
+    "mount-racey": {
+      "name_zh": "夕張度假村 Mount Racey",
+      "name_ja": "マウントレースイスキー場",
+      "name_en": "Mount Racey",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 43.051373,
+      "lon": 141.9694165
+    },
+    "mt-jeans-nasu": {
+      "name_zh": "Mt. Jeans 那須 [栃木]",
+      "name_ja": "マウントジーンズ那須",
+      "name_en": "Mt. Jeans Nasu",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 37.127938,
+      "lon": 140.015301
+    },
+    "muikamachi-hakkaisan": {
+      "name_zh": "六日町八海山滑雪場",
+      "name_ja": "六日町八海山スキー場",
+      "name_en": "Muikamachi Hakkaisan",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 37.1079454,
+      "lon": 138.9777766
+    },
+    "myoko-suginohara": {
+      "name_zh": "妙高杉之原滑雪場",
+      "name_ja": "妙高杉ノ原スキー場",
+      "name_en": "Myoko Suginohara",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 36.8569225,
+      "lon": 138.15507
+    },
+    "naeba-ski-resort": {
+      "name_zh": "苗場滑雪場",
+      "name_ja": "苗場スキー場",
+      "name_en": "Naeba Ski Resort",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 36.7953474,
+      "lon": 138.786228
+    },
+    "nakayama-toge-ski-resort": {
+      "name_zh": "中山峠滑雪場",
+      "name_ja": "中山峠スキー場",
+      "name_en": "Nakayama Toge Ski Resort",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 42.85057,
+      "lon": 141.0947953
+    },
+    "nayoro-piyasiri": {
+      "name_zh": "名寄 Piyasiri 滑雪場",
+      "name_ja": "名寄ピヤシリスキー場",
+      "name_en": "Nayoro Piyasiri",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 44.4044208,
+      "lon": 142.51344
+    },
+    "niseko-annupuri": {
+      "name_zh": "二世谷安努普利",
+      "name_ja": "ニセコアンヌプリ国際スキー場",
+      "name_en": "Niseko Annupuri",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 42.8474716,
+      "lon": 140.6479506
+    },
+    "niseko-grand-hirafu": {
+      "name_zh": "二世谷格蘭比羅夫",
+      "name_ja": "ニセコ東急 グラン・ヒラフ",
+      "name_en": "Niseko Grand Hirafu",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 42.8616549,
+      "lon": 140.6982419
+    },
+    "niseko-hanazono": {
+      "name_zh": "二世谷花園",
+      "name_ja": "ニセコHANAZONOリゾート",
+      "name_en": "Niseko Hanazono",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 42.8930897,
+      "lon": 140.7001713
+    },
+    "niseko-village": {
+      "name_zh": "二世谷村",
+      "name_ja": "ニセコビレッジスキーリゾート",
+      "name_en": "Niseko Village",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 42.8469779,
+      "lon": 140.6843228
+    },
+    "nozawa-onsen": {
+      "name_zh": "野澤溫泉滑雪場",
+      "name_ja": "野沢温泉スキー場",
+      "name_en": "Nozawa Onsen",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.9206775,
+      "lon": 138.4523232
+    },
+    "okutadami-maruyama": {
+      "name_zh": "奧只見丸山滑雪場",
+      "name_ja": "奥只見丸山スキー場",
+      "name_en": "Okutadami Maruyama",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 37.1621145,
+      "lon": 139.2459553
+    },
+    "ontake-2240": {
+      "name_zh": "御嶽滑雪場 [長野/岐阜]",
+      "name_ja": "おんたけ2240",
+      "name_en": "Ontake 2240",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 35.8629643,
+      "lon": 137.5285717
+    },
+    "palcall-tsumagoi": {
+      "name_zh": "帕爾呼延嬬戀度假村 [群馬]",
+      "name_ja": "パルコール嬬恋リゾート",
+      "name_en": "Palcall Tsumagoi",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 36.5557618,
+      "lon": 138.4639807
+    },
+    "pippu-ski-resort": {
+      "name_zh": "比布滑雪場",
+      "name_ja": "ぴっぷスキー場",
+      "name_en": "Pippu Ski Resort",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 43.9331104,
+      "lon": 142.4998309
+    },
+    "rusutsu-resort": {
+      "name_zh": "留壽都度假村",
+      "name_ja": "ルスツリゾート",
+      "name_en": "Rusutsu Resort",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 42.74835090000001,
+      "lon": 140.8969402
+    },
+    "ryuoo-ski-park": {
+      "name_zh": "龍王滑雪公園",
+      "name_ja": "竜王スキーパーク",
+      "name_en": "Ryuoo Ski Park",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.7873081,
+      "lon": 138.4480924
+    },
+    "sahoro-resort": {
+      "name_zh": "十勝佐幌度假村",
+      "name_ja": "サホロリゾート",
+      "name_en": "Sahoro Resort",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 43.1667729,
+      "lon": 142.8131493
+    },
+    "sapporo-bankei": {
+      "name_zh": "札幌盤溪滑雪場",
+      "name_ja": "さっぽろばんけいスキー場",
+      "name_en": "Sapporo BanKei",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 43.0305127,
+      "lon": 141.2780596
+    },
+    "sapporo-kokusai-ski-resort": {
+      "name_zh": "札幌國際滑雪場",
+      "name_ja": "札幌国際スキー場",
+      "name_en": "Sapporo Kokusai Ski Resort",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 43.0722253,
+      "lon": 141.0827825
+    },
+    "sapporo-teine": {
+      "name_zh": "札幌手稻滑雪場",
+      "name_ja": "サッポロテイネ",
+      "name_en": "Sapporo Teine",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 43.1322358,
+      "lon": 141.2417533
+    },
+    "shiga-kogen": {
+      "name_zh": "志賀高原滑雪場",
+      "name_ja": "志賀高原スキー場",
+      "name_en": "Shiga Kogen",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.7162361,
+      "lon": 138.493131
+    },
+    "shirakabako-royal-hill": {
+      "name_zh": "白樺湖 Royal Hill",
+      "name_ja": "白樺湖ロイヤルヒルスキー場",
+      "name_en": "Shirakabako Royal Hill",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.101986,
+      "lon": 138.234357
+    },
+    "shizukuishi-ski-resort": {
+      "name_zh": "雫石滑雪場 [岩手]",
+      "name_ja": "雫石スキー場",
+      "name_en": "Shizukuishi Ski Resort",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 39.7736975,
+      "lon": 140.9243345
+    },
+    "snow-cruise-onze": {
+      "name_zh": "小樽 Onze 滑雪場",
+      "name_ja": "スノークルーズ・オーンズ",
+      "name_en": "Snow Cruise Onze",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "lat": 43.1462547,
+      "lon": 141.133201
+    },
+    "snow-park-yeti": {
+      "name_zh": "Snow Park Yeti [靜岡]",
+      "name_ja": "スノーパーク イエティ",
+      "name_en": "Snow Park Yeti",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 35.30002229999999,
+      "lon": 138.7683598
+    },
+    "spring-valley-sendai-izumi": {
+      "name_zh": "泉高原 Spring Valley [宮城]",
+      "name_ja": "スプリングバレー仙台泉",
+      "name_en": "Spring Valley Sendai Izumi",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 38.418773,
+      "lon": 140.723035
+    },
+    "sugadaira-kogen": {
+      "name_zh": "菅平高原雪地度假村",
+      "name_ja": "菅平高原スノーリゾート",
+      "name_en": "Sugadaira Kogen",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.51745289999999,
+      "lon": 138.3179612
+    },
+    "suhara-ski-resort": {
+      "name_zh": "須原滑雪場",
+      "name_ja": "須原スキー場",
+      "name_en": "Suhara Ski Resort",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 37.322691,
+      "lon": 139.016183
+    },
+    "takasu-snow-park": {
+      "name_zh": "高鷲 Snow Park [岐阜]",
+      "name_ja": "高鷲スノーパーク",
+      "name_en": "Takasu Snow Park",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 35.9982091,
+      "lon": 136.8773292
+    },
+    "tambara-ski-park": {
+      "name_zh": "玉原滑雪園 [群馬]",
+      "name_ja": "たんばらスキーパーク",
+      "name_en": "Tambara Ski Park",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 36.778232,
+      "lon": 139.0726606
+    },
+    "tazawako-ski-resort": {
+      "name_zh": "田澤湖滑雪場 [秋田]",
+      "name_ja": "たざわ湖スキー場",
+      "name_en": "Tazawako Ski Resort",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 39.7623337,
+      "lon": 140.7707131
+    },
+    "tengendai-kogen": {
+      "name_zh": "天元台高原滑雪場 [山形]",
+      "name_ja": "天元台高原スキー場",
+      "name_en": "Tengendai Kogen",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 37.7744828,
+      "lon": 140.1365269
+    },
+    "togari-onsen": {
+      "name_zh": "戶狩溫泉滑雪場",
+      "name_ja": "戸狩温泉スキー場",
+      "name_en": "Togari Onsen",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.9321655,
+      "lon": 138.3878788
+    },
+    "tsugaike-kogen": {
+      "name_zh": "栂池高原滑雪場",
+      "name_ja": "つがいけマウンテンリゾート",
+      "name_en": "Tsugaike Kogen",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.74907090000001,
+      "lon": 137.871598
+    },
+    "washigatake": {
+      "name_zh": "鷲岳滑雪場 [岐阜]",
+      "name_ja": "鷲ヶ岳スキー場",
+      "name_en": "Washigatake",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 35.9432183,
+      "lon": 136.9197344
+    },
+    "white-pia-takasu": {
+      "name_zh": "White Pia 高鷲 [岐阜]",
+      "name_ja": "ホワイトピアたかす",
+      "name_en": "White Pia Takasu",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 35.95581689999999,
+      "lon": 136.9348753
+    },
+    "white-world-oze-iwakura": {
+      "name_zh": "White World 尾瀨岩鞍 [群馬]",
+      "name_ja": "ホワイトワールド尾瀬岩鞍",
+      "name_en": "White World Oze Iwakura",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 36.8150789,
+      "lon": 139.2199067
+    },
+    "winghills-shirotori": {
+      "name_zh": "Winghills 白鳥度假村 [岐阜]",
+      "name_ja": "ウイングヒルズ白鳥リゾート",
+      "name_en": "Winghills Shirotori",
+      "prefecture": "關東與中部",
+      "region": "其他地區",
+      "lat": 35.9659079,
+      "lon": 136.8028258
+    },
+    "yunomaru-ski-resort": {
+      "name_zh": "湯之丸滑雪場",
+      "name_ja": "湯の丸スキー場",
+      "name_en": "Yunomaru Ski Resort",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.4282259,
+      "lon": 138.4204418
+    },
+    "yuzawa-kogen": {
+      "name_zh": "湯澤高原滑雪場",
+      "name_ja": "湯沢高原スキー場",
+      "name_en": "Yuzawa Kogen",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 36.940232,
+      "lon": 138.8039011
+    },
+    "yuzawa-nakazato": {
+      "name_zh": "湯澤中里滑雪度假村",
+      "name_ja": "湯沢中里スノーリゾート",
+      "name_en": "Yuzawa Nakazato",
+      "prefecture": "新潟縣",
+      "region": "甲信越",
+      "lat": 36.9141426,
+      "lon": 138.8490268
+    },
+    "zao-onsen": {
+      "name_zh": "藏王溫泉滑雪場 [山形]",
+      "name_ja": "蔵王温泉スキー場",
+      "name_en": "Zao Onsen",
+      "prefecture": "東北地區",
+      "region": "其他地區",
+      "lat": 38.1651589,
+      "lon": 140.3952784
+    }
+  },
+  "weather_cache": {
+    "akakura-kanko-resort": {
+      "temperature": 21.98,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:07:34.568Z"
+    },
+    "akakura-onsen": {
+      "temperature": 21.98,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:07:36.105Z"
+    },
+    "ani-ski-resort": {
+      "temperature": 15,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:07:37.612Z"
+    },
+    "aomori-spring": {
+      "temperature": 13.29,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:07:39.076Z"
+    },
+    "appi-kogen": {
+      "temperature": 14.53,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:07:40.560Z"
+    },
+    "asahidake": {
+      "temperature": 6.55,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:07:42.019Z"
+    },
+    "cupid-valley": {
+      "temperature": 24.74,
+      "snow_1h": 0,
+      "weather_description": "小雨",
+      "updated_at": "2026-10-21T08:07:43.488Z"
+    },
+    "dynaland": {
+      "temperature": 18.02,
+      "snow_1h": 0,
+      "weather_description": "小雨",
+      "updated_at": "2026-10-21T08:07:44.983Z"
+    },
+    "fujimi-panorama-resort": {
+      "temperature": 17.73,
+      "snow_1h": 0,
+      "weather_description": "晴，少雲",
+      "updated_at": "2026-10-21T08:07:46.477Z"
+    },
+    "fujiten-snow-resort": {
+      "temperature": 19.82,
+      "snow_1h": 0,
+      "weather_description": "晴，少雲",
+      "updated_at": "2026-10-21T08:07:47.968Z"
+    },
+    "furano-ski-resort": {
+      "temperature": 8.2,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:07:49.441Z"
+    },
+    "gala-yuzawa": {
+      "temperature": 22.55,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:07:50.939Z"
+    },
+    "geto-kogen": {
+      "temperature": 15.32,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:07:52.433Z"
+    },
+    "grandeco-snow-resort": {
+      "temperature": 15.84,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:07:53.867Z"
+    },
+    "hachimantai-resort": {
+      "temperature": 16.34,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:07:55.318Z"
+    },
+    "hakkoda-ski-resort": {
+      "temperature": 11.46,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:07:56.800Z"
+    },
+    "hakuba-cortina": {
+      "temperature": 19.31,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:07:58.234Z"
+    },
+    "hakuba-goryu": {
+      "temperature": 20.73,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:07:59.673Z"
+    },
+    "hakuba-happo-one": {
+      "temperature": 19.71,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:08:01.105Z"
+    },
+    "hakuba-iwatake-snow-field": {
+      "temperature": 19.94,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:08:02.553Z"
+    },
+    "hakuba-norikura-onsen": {
+      "temperature": 15.33,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:08:04.003Z"
+    },
+    "hakuba47-winter-sports-park": {
+      "temperature": 19.71,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:08:05.433Z"
+    },
+    "hoshino-resorts-alts-bandai": {
+      "temperature": 17.2,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:08:06.875Z"
+    },
+    "hoshino-resorts-nekoma": {
+      "temperature": 16.71,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:08:08.323Z"
+    },
+    "hoshino-resorts-tomamu": {
+      "temperature": 10.3,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:08:09.772Z"
+    },
+    "hunter-mountain-shiobara": {
+      "temperature": 19.46,
+      "snow_1h": 0,
+      "weather_description": "晴",
+      "updated_at": "2026-10-21T08:08:11.239Z"
+    },
+    "ikenotaira-onsen": {
+      "temperature": 18.17,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:08:12.663Z"
+    },
+    "inawashiro-ski-resort": {
+      "temperature": 19.36,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:08:14.126Z"
+    },
+    "ishiuchi-maruyama": {
+      "temperature": 21.61,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:08:15.556Z"
+    },
+    "iwappara-ski-resort": {
+      "temperature": 22.39,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:08:16.982Z"
+    },
+    "joetsu-kokusai": {
+      "temperature": 22.27,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:08:18.440Z"
+    },
+    "kagura-ski-resort": {
+      "temperature": 15.64,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:08:19.869Z"
+    },
+    "kamui-ski-links": {
+      "temperature": 12.49,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:08:21.298Z"
+    },
+    "kandatsu-snow-resort": {
+      "temperature": 23.08,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:08:22.721Z"
+    },
+    "karuizawa-prince-hotel": {
+      "temperature": 18.12,
+      "snow_1h": 0,
+      "weather_description": "晴",
+      "updated_at": "2026-10-21T08:08:24.183Z"
+    },
+    "kashimayari": {
+      "temperature": 18.08,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:08:25.633Z"
+    },
+    "kawaba-ski-resort": {
+      "temperature": 17.15,
+      "snow_1h": 0,
+      "weather_description": "晴，少雲",
+      "updated_at": "2026-10-21T08:08:27.049Z"
+    },
+    "kiroro-snow-world": {
+      "temperature": 10.51,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:08:28.491Z"
+    },
+    "kitashiga-komaruyama": {
+      "temperature": 22.69,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:08:29.936Z"
+    },
+    "kurodake": {
+      "temperature": 8.69,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:08:31.390Z"
+    },
+    "kurumayama-kogen-skypark": {
+      "temperature": 17.08,
+      "snow_1h": 0,
+      "weather_description": "晴",
+      "updated_at": "2026-10-21T08:08:32.850Z"
+    },
+    "kusatsu-onsen": {
+      "temperature": 16.15,
+      "snow_1h": 0,
+      "weather_description": "晴",
+      "updated_at": "2026-10-21T08:08:34.271Z"
+    },
+    "lotte-arai-resort": {
+      "temperature": 24.36,
+      "snow_1h": 0,
+      "weather_description": "小雨",
+      "updated_at": "2026-10-21T08:08:35.734Z"
+    },
+    "madarao-kogen": {
+      "temperature": 21.05,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:08:37.154Z"
+    },
+    "maiko-snow-resort": {
+      "temperature": 24.85,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:08:38.585Z"
+    },
+    "manza-onsen": {
+      "temperature": 12.91,
+      "snow_1h": 0,
+      "weather_description": "晴，少雲",
+      "updated_at": "2026-10-21T08:08:40.042Z"
+    },
+    "marunuma-kogen": {
+      "temperature": 17.56,
+      "snow_1h": 0,
+      "weather_description": "晴",
+      "updated_at": "2026-10-21T08:08:41.473Z"
+    },
+    "matsunoyama-onsen": {
+      "temperature": 22.48,
+      "snow_1h": 0,
+      "weather_description": "小雨",
+      "updated_at": "2026-10-21T08:08:42.904Z"
+    },
+    "minakami-kogen": {
+      "temperature": 21.34,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:08:44.340Z"
+    },
+    "minowa-ski-resort": {
+      "temperature": 15.78,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:08:45.784Z"
+    },
+    "miyagi-zao-eboshi": {
+      "temperature": 16.91,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:08:47.230Z"
+    },
+    "mount-racey": {
+      "temperature": 11.24,
+      "snow_1h": 0,
+      "weather_description": "中雨",
+      "updated_at": "2026-10-21T08:08:48.672Z"
+    },
+    "mt-jeans-nasu": {
+      "temperature": 16.93,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:08:50.129Z"
+    },
+    "muikamachi-hakkaisan": {
+      "temperature": 23.45,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:08:51.595Z"
+    },
+    "myoko-suginohara": {
+      "temperature": 19.8,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:08:53.061Z"
+    },
+    "naeba-ski-resort": {
+      "temperature": 18.26,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:08:54.516Z"
+    },
+    "nakayama-toge-ski-resort": {
+      "temperature": 10.2,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:08:55.948Z"
+    },
+    "nayoro-piyasiri": {
+      "temperature": 9.01,
+      "snow_1h": 0,
+      "weather_description": "中雨",
+      "updated_at": "2026-10-21T08:08:57.398Z"
+    },
+    "niseko-annupuri": {
+      "temperature": 11.33,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:08:58.821Z"
+    },
+    "niseko-grand-hirafu": {
+      "temperature": 10.17,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:09:00.245Z"
+    },
+    "niseko-hanazono": {
+      "temperature": 11.91,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:09:01.692Z"
+    },
+    "niseko-village": {
+      "temperature": 12.28,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:09:03.110Z"
+    },
+    "nozawa-onsen": {
+      "temperature": 23.44,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:09:04.543Z"
+    },
+    "okutadami-maruyama": {
+      "temperature": 20.71,
+      "snow_1h": 0,
+      "weather_description": "小雨",
+      "updated_at": "2026-10-21T08:09:05.971Z"
+    },
+    "ontake-2240": {
+      "temperature": 15.72,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:09:07.421Z"
+    },
+    "palcall-tsumagoi": {
+      "temperature": 14.67,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:09:08.874Z"
+    },
+    "pippu-ski-resort": {
+      "temperature": 9.39,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:09:10.297Z"
+    },
+    "rusutsu-resort": {
+      "temperature": 11.52,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:09:11.756Z"
+    },
+    "ryuoo-ski-park": {
+      "temperature": 22.69,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:09:13.195Z"
+    },
+    "sahoro-resort": {
+      "temperature": 9.85,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:09:14.640Z"
+    },
+    "sapporo-bankei": {
+      "temperature": 13.66,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:09:16.094Z"
+    },
+    "sapporo-kokusai-ski-resort": {
+      "temperature": 9.8,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:09:17.515Z"
+    },
+    "sapporo-teine": {
+      "temperature": 14.49,
+      "snow_1h": 0,
+      "weather_description": "中雨",
+      "updated_at": "2026-10-21T08:09:18.960Z"
+    },
+    "shiga-kogen": {
+      "temperature": 20.07,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:09:20.384Z"
+    },
+    "shirakabako-royal-hill": {
+      "temperature": 17.2,
+      "snow_1h": 0,
+      "weather_description": "晴",
+      "updated_at": "2026-10-21T08:09:21.811Z"
+    },
+    "shizukuishi-ski-resort": {
+      "temperature": 13.64,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:09:23.252Z"
+    },
+    "snow-cruise-onze": {
+      "temperature": 13.87,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:09:24.672Z"
+    },
+    "snow-park-yeti": {
+      "temperature": 16,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:09:26.099Z"
+    },
+    "spring-valley-sendai-izumi": {
+      "temperature": 17.62,
+      "snow_1h": 0,
+      "weather_description": "小雨",
+      "updated_at": "2026-10-21T08:09:27.514Z"
+    },
+    "sugadaira-kogen": {
+      "temperature": 18.95,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:09:28.967Z"
+    },
+    "suhara-ski-resort": {
+      "temperature": 19.29,
+      "snow_1h": 0,
+      "weather_description": "中雨",
+      "updated_at": "2026-10-21T08:09:30.414Z"
+    },
+    "takasu-snow-park": {
+      "temperature": 18.65,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:09:31.844Z"
+    },
+    "tambara-ski-park": {
+      "temperature": 18.59,
+      "snow_1h": 0,
+      "weather_description": "晴，少雲",
+      "updated_at": "2026-10-21T08:09:33.299Z"
+    },
+    "tazawako-ski-resort": {
+      "temperature": 14.59,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:09:34.752Z"
+    },
+    "tengendai-kogen": {
+      "temperature": 15.26,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:09:36.206Z"
+    },
+    "togari-onsen": {
+      "temperature": 22.09,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:09:37.661Z"
+    },
+    "tsugaike-kogen": {
+      "temperature": 18.52,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:09:39.097Z"
+    },
+    "washigatake": {
+      "temperature": 21.03,
+      "snow_1h": 0,
+      "weather_description": "小雨",
+      "updated_at": "2026-10-21T08:09:40.546Z"
+    },
+    "white-pia-takasu": {
+      "temperature": 20.32,
+      "snow_1h": 0,
+      "weather_description": "小雨",
+      "updated_at": "2026-10-21T08:09:41.964Z"
+    },
+    "white-world-oze-iwakura": {
+      "temperature": 17.63,
+      "snow_1h": 0,
+      "weather_description": "晴，少雲",
+      "updated_at": "2026-10-21T08:09:43.391Z"
+    },
+    "winghills-shirotori": {
+      "temperature": 20.58,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:09:44.841Z"
+    },
+    "yunomaru-ski-resort": {
+      "temperature": 16.33,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:09:46.289Z"
+    },
+    "yuzawa-kogen": {
+      "temperature": 24.67,
+      "snow_1h": 0,
+      "weather_description": "陰，多雲",
+      "updated_at": "2026-10-21T08:09:47.721Z"
+    },
+    "yuzawa-nakazato": {
+      "temperature": 23.92,
+      "snow_1h": 0,
+      "weather_description": "多雲",
+      "updated_at": "2026-10-21T08:09:49.163Z"
+    },
+    "zao-onsen": {
+      "temperature": 15.88,
+      "snow_1h": 0,
+      "weather_description": "大雨",
+      "updated_at": "2026-10-21T08:09:50.627Z"
+    }
+  },
+  "ticket_offers": {
+    "surfsnow_000000003047": {
+      "product_id": "000000003047",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】天元台高原 早割パスポート1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003047/",
+      "resort_ids": [
+        "tengendai-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-01",
+      "sale_end": "2026-12-06",
+      "checked_at": "2026-10-25T00:42:02.507Z"
+    },
+    "surfsnow_000000003049": {
+      "product_id": "000000003049",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】竜王スキーパーク 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003049/",
+      "resort_ids": [
+        "ryuoo-ski-park"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-01",
+      "sale_end": "2026-12-18",
+      "checked_at": "2026-10-25T00:42:04.041Z"
+    },
+    "surfsnow_000000003050": {
+      "product_id": "000000003050",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】竜王スキーパーク 早割リフト1日券3枚綴り<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003050/",
+      "resort_ids": [
+        "ryuoo-ski-park"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-01",
+      "sale_end": "2026-12-18",
+      "checked_at": "2026-10-25T00:42:05.498Z"
+    },
+    "surfsnow_000000003053": {
+      "product_id": "000000003053",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】赤倉観光リゾートスキー場 超早割リフト1日券",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003053/",
+      "resort_ids": [
+        "akakura-kanko-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-10",
+      "sale_end": "2026-10-31",
+      "checked_at": "2026-10-25T00:42:06.559Z"
+    },
+    "surfsnow_000000003055": {
+      "product_id": "000000003055",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】キューピットバレイ 早割リフト1日券",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003055/",
+      "resort_ids": [
+        "cupid-valley"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-01",
+      "sale_end": "2026-12-18",
+      "checked_at": "2026-10-25T00:42:08.158Z"
+    },
+    "surfsnow_000000003057": {
+      "product_id": "000000003057",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】みやぎ蔵王えぼしリゾート 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003057/",
+      "resort_ids": [
+        "miyagi-zao-eboshi"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-01",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:42:09.623Z"
+    },
+    "surfsnow_000000003058": {
+      "product_id": "000000003058",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】みやぎ蔵王えぼしリゾート 早割リフト1日券<高校・大学・専門学生>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003058/",
+      "resort_ids": [
+        "miyagi-zao-eboshi"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-01",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:42:11.041Z"
+    },
+    "surfsnow_000000003059": {
+      "product_id": "000000003059",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】富士見パノラマリゾート 早割第1弾 ゴンドラリフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003059/",
+      "resort_ids": [
+        "fujimi-panorama-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-12",
+      "sale_end": "2026-10-31",
+      "checked_at": "2026-10-25T00:42:12.102Z"
+    },
+    "surfsnow_000000003061": {
+      "product_id": "000000003061",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】富士見パノラマリゾート パック券 ゴンドラリフト1日パック券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003061/",
+      "resort_ids": [
+        "fujimi-panorama-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-12",
+      "sale_end": "2027-02-28",
+      "checked_at": "2026-10-25T00:42:13.236Z"
+    },
+    "surfsnow_000000003062": {
+      "product_id": "000000003062",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】富士見パノラマリゾート パック券 ゴンドラリフト1日パック券<こども>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003062/",
+      "resort_ids": [
+        "fujimi-panorama-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-12",
+      "sale_end": "2027-02-28",
+      "checked_at": "2026-10-25T00:42:14.680Z"
+    },
+    "surfsnow_000000003064": {
+      "product_id": "000000003064",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】池の平温泉アルペンブリックスキー場 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003064/",
+      "resort_ids": [
+        "ikenotaira-onsen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-18",
+      "checked_at": "2026-10-25T00:42:16.161Z"
+    },
+    "surfsnow_000000003066": {
+      "product_id": "000000003066",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】舞子スノーリゾート 早割1dayパス＜大人＞",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003066/",
+      "resort_ids": [
+        "maiko-snow-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-01",
+      "sale_end": "2026-12-18",
+      "checked_at": "2026-10-25T00:42:17.688Z"
+    },
+    "surfsnow_000000003067": {
+      "product_id": "000000003067",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】舞子スノーリゾート 早割1dayパス<小学生>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003067/",
+      "resort_ids": [
+        "maiko-snow-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-01",
+      "sale_end": "2026-12-18",
+      "checked_at": "2026-10-25T00:42:18.832Z"
+    },
+    "surfsnow_000000003082": {
+      "product_id": "000000003082",
+      "source": "Surf&Snow",
+      "title": "竜王スキーパーク 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003082/",
+      "resort_ids": [
+        "ryuoo-ski-park"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-01",
+      "sale_end": "2026-12-18",
+      "checked_at": "2026-10-25T00:42:20.283Z"
+    },
+    "surfsnow_000000003083": {
+      "product_id": "000000003083",
+      "source": "Surf&Snow",
+      "title": "竜王スキーパーク 早割リフト1日券3枚綴り<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003083/",
+      "resort_ids": [
+        "ryuoo-ski-park"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-01",
+      "sale_end": "2026-12-18",
+      "checked_at": "2026-10-25T00:42:21.827Z"
+    },
+    "surfsnow_000000003084": {
+      "product_id": "000000003084",
+      "source": "Surf&Snow",
+      "title": "赤倉観光リゾートスキー場 超早割リフト1日券",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003084/",
+      "resort_ids": [
+        "akakura-kanko-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-10",
+      "sale_end": "2026-10-31",
+      "checked_at": "2026-10-25T00:42:22.955Z"
+    },
+    "surfsnow_000000003086": {
+      "product_id": "000000003086",
+      "source": "Surf&Snow",
+      "title": "キューピットバレイ 早割リフト1日券",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003086/",
+      "resort_ids": [
+        "cupid-valley"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-01",
+      "sale_end": "2026-12-18",
+      "checked_at": "2026-10-25T00:42:24.271Z"
+    },
+    "surfsnow_000000003087": {
+      "product_id": "000000003087",
+      "source": "Surf&Snow",
+      "title": "富士見パノラマリゾート 早割第1弾 ゴンドラリフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003087/",
+      "resort_ids": [
+        "fujimi-panorama-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-12",
+      "sale_end": "2026-10-31",
+      "checked_at": "2026-10-25T00:42:25.585Z"
+    },
+    "surfsnow_000000003091": {
+      "product_id": "000000003091",
+      "source": "Surf&Snow",
+      "title": "池の平温泉アルペンブリックスキー場 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003091/",
+      "resort_ids": [
+        "ikenotaira-onsen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-18",
+      "checked_at": "2026-10-25T00:42:27.050Z"
+    },
+    "surfsnow_000000003093": {
+      "product_id": "000000003093",
+      "source": "Surf&Snow",
+      "title": "舞子スノーリゾート 早割1dayパス<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003093/",
+      "resort_ids": [
+        "maiko-snow-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-01",
+      "sale_end": "2026-12-18",
+      "checked_at": "2026-10-25T00:42:28.470Z"
+    },
+    "surfsnow_000000003094": {
+      "product_id": "000000003094",
+      "source": "Surf&Snow",
+      "title": "舞子スノーリゾート 早割1dayパス<小学生>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003094/",
+      "resort_ids": [
+        "maiko-snow-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-01",
+      "sale_end": "2026-12-18",
+      "checked_at": "2026-10-25T00:42:29.519Z"
+    },
+    "surfsnow_000000003106": {
+      "product_id": "000000003106",
+      "source": "Surf&Snow",
+      "title": "ホワイトピアたかす 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003106/",
+      "resort_ids": [
+        "white-pia-takasu"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-01",
+      "sale_end": "2027-03-28",
+      "checked_at": "2026-10-25T00:42:30.559Z"
+    },
+    "surfsnow_000000003110": {
+      "product_id": "000000003110",
+      "source": "Surf&Snow",
+      "title": "石打丸山スキー場 早割リフト1日券(フレックスタイム8.5時間券)<全年代>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003110/",
+      "resort_ids": [
+        "ishiuchi-maruyama"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-01",
+      "sale_end": "2026-12-15",
+      "checked_at": "2026-10-25T00:42:31.689Z"
+    },
+    "surfsnow_000000003112": {
+      "product_id": "000000003112",
+      "source": "Surf&Snow",
+      "title": "パルコール嬬恋リゾート 10月 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003112/",
+      "resort_ids": [
+        "palcall-tsumagoi"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-10-31",
+      "checked_at": "2026-10-25T00:42:32.761Z"
+    },
+    "surfsnow_000000003114": {
+      "product_id": "000000003114",
+      "source": "Surf&Snow",
+      "title": "パルコール嬬恋リゾート 9~11月 早割リフト1日券<小学生>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003114/",
+      "resort_ids": [
+        "palcall-tsumagoi"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-05",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:42:34.211Z"
+    },
+    "surfsnow_000000003121": {
+      "product_id": "000000003121",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】パルコール嬬恋リゾート 10月 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003121/",
+      "resort_ids": [
+        "palcall-tsumagoi"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-10-31",
+      "checked_at": "2026-10-25T00:42:35.326Z"
+    },
+    "surfsnow_000000003123": {
+      "product_id": "000000003123",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】パルコール嬬恋リゾート 9~11月 早割リフト1日券<小学生>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003123/",
+      "resort_ids": [
+        "palcall-tsumagoi"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-05",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:42:36.441Z"
+    },
+    "surfsnow_000000003137": {
+      "product_id": "000000003137",
+      "source": "Surf&Snow",
+      "title": "名寄ピヤシリスキー場 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003137/",
+      "resort_ids": [
+        "nayoro-piyasiri"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2027-02-28",
+      "checked_at": "2026-10-25T00:42:37.497Z"
+    },
+    "surfsnow_000000003138": {
+      "product_id": "000000003138",
+      "source": "Surf&Snow",
+      "title": "名寄ピヤシリスキー場 早割リフト1日券<シニア>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003138/",
+      "resort_ids": [
+        "nayoro-piyasiri"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2027-02-28",
+      "checked_at": "2026-10-25T00:42:38.827Z"
+    },
+    "surfsnow_000000003147": {
+      "product_id": "000000003147",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】富士見パノラマリゾート パック券 ゴンドラリフト1日パック券<中高生>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003147/",
+      "resort_ids": [
+        "fujimi-panorama-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-12",
+      "sale_end": "2027-02-28",
+      "checked_at": "2026-10-25T00:42:39.883Z"
+    },
+    "surfsnow_000000003158": {
+      "product_id": "000000003158",
+      "source": "Surf&Snow",
+      "title": "つがいけマウンテンリゾート 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003158/",
+      "resort_ids": [
+        "tsugaike-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-14",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:42:41.199Z"
+    },
+    "surfsnow_000000003159": {
+      "product_id": "000000003159",
+      "source": "Surf&Snow",
+      "title": "つがいけマウンテンリゾート 早割リフト1日券<子供>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003159/",
+      "resort_ids": [
+        "tsugaike-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-14",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:42:42.339Z"
+    },
+    "surfsnow_000000003160": {
+      "product_id": "000000003160",
+      "source": "Surf&Snow",
+      "title": "つがいけマウンテンリゾート 早割リフト1日券パック<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003160/",
+      "resort_ids": [
+        "tsugaike-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-14",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:42:43.685Z"
+    },
+    "surfsnow_000000003161": {
+      "product_id": "000000003161",
+      "source": "Surf&Snow",
+      "title": "つがいけマウンテンリゾート 早割リフト1日券パック<子供>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003161/",
+      "resort_ids": [
+        "tsugaike-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-14",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:42:44.807Z"
+    },
+    "surfsnow_000000003162": {
+      "product_id": "000000003162",
+      "source": "Surf&Snow",
+      "title": "鷲ヶ岳スキー場 リフト1日券＜大人＞",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003162/",
+      "resort_ids": [
+        "washigatake"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-15",
+      "checked_at": "2026-10-25T00:42:46.217Z"
+    },
+    "surfsnow_000000003175": {
+      "product_id": "000000003175",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】つがいけマウンテンリゾート 早割リフト1日券＜大人＞",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003175/",
+      "resort_ids": [
+        "tsugaike-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-14",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:42:47.339Z"
+    },
+    "surfsnow_000000003176": {
+      "product_id": "000000003176",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】つがいけマウンテンリゾート 早割リフト1日券<子供>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003176/",
+      "resort_ids": [
+        "tsugaike-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-14",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:42:48.457Z"
+    },
+    "surfsnow_000000003177": {
+      "product_id": "000000003177",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】つがいけマウンテンリゾート 早割リフト1日券パック<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003177/",
+      "resort_ids": [
+        "tsugaike-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-14",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:42:49.861Z"
+    },
+    "surfsnow_000000003178": {
+      "product_id": "000000003178",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】つがいけマウンテンリゾート 早割リフト1日券パック<子供>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003178/",
+      "resort_ids": [
+        "tsugaike-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-09-14",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:42:51.249Z"
+    },
+    "surfsnow_000000003179": {
+      "product_id": "000000003179",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】鷲ヶ岳スキー場 リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003179/",
+      "resort_ids": [
+        "washigatake"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-15",
+      "checked_at": "2026-10-25T00:42:52.294Z"
+    },
+    "surfsnow_000000003191": {
+      "product_id": "000000003191",
+      "source": "Surf&Snow",
+      "title": "夏油高原スキー場 早割リフト1日券ICチケット<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003191/",
+      "resort_ids": [
+        "geto-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-04",
+      "checked_at": "2026-10-25T00:42:53.436Z"
+    },
+    "surfsnow_000000003192": {
+      "product_id": "000000003192",
+      "source": "Surf&Snow",
+      "title": "夏油高原スキー場 早割リフト20時間券ICチケット<全日>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003192/",
+      "resort_ids": [
+        "geto-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-04",
+      "checked_at": "2026-10-25T00:42:54.769Z"
+    },
+    "surfsnow_000000003193": {
+      "product_id": "000000003193",
+      "source": "Surf&Snow",
+      "title": "夏油高原スキー場 早割リフト1日券<シニア>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003193/",
+      "resort_ids": [
+        "geto-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-04",
+      "checked_at": "2026-10-25T00:42:56.148Z"
+    },
+    "surfsnow_000000003194": {
+      "product_id": "000000003194",
+      "source": "Surf&Snow",
+      "title": "夏油高原スキー場 早割親子リフト1日券<大人+小学生>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003194/",
+      "resort_ids": [
+        "geto-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-04",
+      "checked_at": "2026-10-25T00:42:57.266Z"
+    },
+    "surfsnow_000000003195": {
+      "product_id": "000000003195",
+      "source": "Surf&Snow",
+      "title": "グランデコスノーリゾート 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003195/",
+      "resort_ids": [
+        "grandeco-snow-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-11",
+      "checked_at": "2026-10-25T00:42:58.435Z"
+    },
+    "surfsnow_000000003197": {
+      "product_id": "000000003197",
+      "source": "Surf&Snow",
+      "title": "ハンターマウンテン塩原 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003197/",
+      "resort_ids": [
+        "hunter-mountain-shiobara"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-11-27",
+      "checked_at": "2026-10-25T00:42:59.560Z"
+    },
+    "surfsnow_000000003198": {
+      "product_id": "000000003198",
+      "source": "Surf&Snow",
+      "title": "ハンターマウンテン塩原 早割リフト1日券<子供>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003198/",
+      "resort_ids": [
+        "hunter-mountain-shiobara"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-11-27",
+      "checked_at": "2026-10-25T00:43:00.878Z"
+    },
+    "surfsnow_000000003199": {
+      "product_id": "000000003199",
+      "source": "Surf&Snow",
+      "title": "上国＆岩原 早割1日入場券＋",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003199/",
+      "resort_ids": [
+        "iwappara-ski-resort",
+        "joetsu-kokusai"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-04",
+      "checked_at": "2026-10-25T00:43:02.240Z"
+    },
+    "surfsnow_000000003205": {
+      "product_id": "000000003205",
+      "source": "Surf&Snow",
+      "title": "川場スキー場 早割リフト1日券<全日>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003205/",
+      "resort_ids": [
+        "kawaba-ski-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:43:03.384Z"
+    },
+    "surfsnow_000000003206": {
+      "product_id": "000000003206",
+      "source": "Surf&Snow",
+      "title": "川場スキー場 早割リフト1日券パック<全日>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003206/",
+      "resort_ids": [
+        "kawaba-ski-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:43:04.725Z"
+    },
+    "surfsnow_000000003215": {
+      "product_id": "000000003215",
+      "source": "Surf&Snow",
+      "title": "ウイングヒルズ白鳥リゾート 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003215/",
+      "resort_ids": [
+        "winghills-shirotori"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-13",
+      "checked_at": "2026-10-25T00:43:06.054Z"
+    },
+    "surfsnow_000000003216": {
+      "product_id": "000000003216",
+      "source": "Surf&Snow",
+      "title": "ウイングヒルズ白鳥リゾート 早割リフト1日券×3枚セット<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003216/",
+      "resort_ids": [
+        "winghills-shirotori"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-13",
+      "checked_at": "2026-10-25T00:43:07.442Z"
+    },
+    "surfsnow_000000003217": {
+      "product_id": "000000003217",
+      "source": "Surf&Snow",
+      "title": "ウイングヒルズ白鳥リゾート 早割リフト1日券<こども>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003217/",
+      "resort_ids": [
+        "winghills-shirotori"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2027-03-07",
+      "checked_at": "2026-10-25T00:43:08.570Z"
+    },
+    "surfsnow_000000003218": {
+      "product_id": "000000003218",
+      "source": "Surf&Snow",
+      "title": "ウイングヒルズ白鳥リゾート 早割リフト1日券×3枚セット<こども>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003218/",
+      "resort_ids": [
+        "winghills-shirotori"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2027-03-07",
+      "checked_at": "2026-10-25T00:43:09.884Z"
+    },
+    "surfsnow_000000003219": {
+      "product_id": "000000003219",
+      "source": "Surf&Snow",
+      "title": "湯沢中里スノーリゾート 早割リフト1日券<全日┃大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003219/",
+      "resort_ids": [
+        "yuzawa-nakazato"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-18",
+      "checked_at": "2026-10-25T00:43:11.280Z"
+    },
+    "surfsnow_000000003220": {
+      "product_id": "000000003220",
+      "source": "Surf&Snow",
+      "title": "湯沢中里スノーリゾート 早割リフト1日券<全日┃小学生>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003220/",
+      "resort_ids": [
+        "yuzawa-nakazato"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-18",
+      "checked_at": "2026-10-25T00:43:12.678Z"
+    },
+    "surfsnow_000000003238": {
+      "product_id": "000000003238",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】夏油高原スキー場 早割リフト1日券ICチケット<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003238/",
+      "resort_ids": [
+        "geto-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-04",
+      "checked_at": "2026-10-25T00:43:14.090Z"
+    },
+    "surfsnow_000000003239": {
+      "product_id": "000000003239",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】夏油高原スキー場 早割リフト20時間券ICチケット<全日>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003239/",
+      "resort_ids": [
+        "geto-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-04",
+      "checked_at": "2026-10-25T00:43:15.198Z"
+    },
+    "surfsnow_000000003240": {
+      "product_id": "000000003240",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】夏油高原スキー場 早割リフト1日券<シニア>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003240/",
+      "resort_ids": [
+        "geto-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-04",
+      "checked_at": "2026-10-25T00:43:16.254Z"
+    },
+    "surfsnow_000000003241": {
+      "product_id": "000000003241",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】夏油高原スキー場 早割親子リフト1日券<大人+小学生>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003241/",
+      "resort_ids": [
+        "geto-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-04",
+      "checked_at": "2026-10-25T00:43:17.708Z"
+    },
+    "surfsnow_000000003242": {
+      "product_id": "000000003242",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】グランデコスノーリゾート 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003242/",
+      "resort_ids": [
+        "grandeco-snow-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-11",
+      "checked_at": "2026-10-25T00:43:18.847Z"
+    },
+    "surfsnow_000000003244": {
+      "product_id": "000000003244",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】ハンターマウンテン塩原 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003244/",
+      "resort_ids": [
+        "hunter-mountain-shiobara"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-11-27",
+      "checked_at": "2026-10-25T00:43:19.964Z"
+    },
+    "surfsnow_000000003245": {
+      "product_id": "000000003245",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】ハンターマウンテン塩原 早割リフト1日券<子供>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003245/",
+      "resort_ids": [
+        "hunter-mountain-shiobara"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-11-27",
+      "checked_at": "2026-10-25T00:43:21.019Z"
+    },
+    "surfsnow_000000003276": {
+      "product_id": "000000003276",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】川場スキー場 早割リフト1日券<全日>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003276/",
+      "resort_ids": [
+        "kawaba-ski-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:43:22.076Z"
+    },
+    "surfsnow_000000003277": {
+      "product_id": "000000003277",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】川場スキー場 早割リフト1日券パック<全日>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003277/",
+      "resort_ids": [
+        "kawaba-ski-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:43:23.211Z"
+    },
+    "surfsnow_000000003278": {
+      "product_id": "000000003278",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】水上高原スキーリゾート 早割リフト1日券<大人・シニア・中学生>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003278/",
+      "resort_ids": [
+        "minakami-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-15",
+      "checked_at": "2026-10-25T00:43:24.346Z"
+    },
+    "surfsnow_000000003279": {
+      "product_id": "000000003279",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】水上高原スキーリゾート 早割リフト1日券<小学生>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003279/",
+      "resort_ids": [
+        "minakami-kogen"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-15",
+      "checked_at": "2026-10-25T00:43:25.480Z"
+    },
+    "surfsnow_000000003288": {
+      "product_id": "000000003288",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】白樺湖ロイヤルヒル 10月限定 早割リフト1日券",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003288/",
+      "resort_ids": [
+        "shirakabako-royal-hill"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-10-31",
+      "checked_at": "2026-10-25T00:43:26.604Z"
+    },
+    "surfsnow_000000003299": {
+      "product_id": "000000003299",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】ウイングヒルズ白鳥リゾート 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003299/",
+      "resort_ids": [
+        "winghills-shirotori"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-13",
+      "checked_at": "2026-10-25T00:43:27.746Z"
+    },
+    "surfsnow_000000003300": {
+      "product_id": "000000003300",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】ウイングヒルズ白鳥リゾート 早割リフト1日券×3枚セット<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003300/",
+      "resort_ids": [
+        "winghills-shirotori"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-13",
+      "checked_at": "2026-10-25T00:43:28.889Z"
+    },
+    "surfsnow_000000003301": {
+      "product_id": "000000003301",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】ウイングヒルズ白鳥リゾート 早割リフト1日券<こども>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003301/",
+      "resort_ids": [
+        "winghills-shirotori"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2027-03-07",
+      "checked_at": "2026-10-25T00:43:29.945Z"
+    },
+    "surfsnow_000000003302": {
+      "product_id": "000000003302",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】ウイングヒルズ白鳥リゾート 早割リフト1日券×3枚セット<こども>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003302/",
+      "resort_ids": [
+        "winghills-shirotori"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2027-03-07",
+      "checked_at": "2026-10-25T00:43:30.989Z"
+    },
+    "surfsnow_000000003305": {
+      "product_id": "000000003305",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】湯沢中里スノーリゾート 早割リフト1日券<全日┃大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003305/",
+      "resort_ids": [
+        "yuzawa-nakazato"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-18",
+      "checked_at": "2026-10-25T00:43:32.378Z"
+    },
+    "surfsnow_000000003306": {
+      "product_id": "000000003306",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】湯沢中里スノーリゾート 早割リフト1日券<全日┃小学生>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003306/",
+      "resort_ids": [
+        "yuzawa-nakazato"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-18",
+      "checked_at": "2026-10-25T00:43:33.502Z"
+    },
+    "surfsnow_000000003322": {
+      "product_id": "000000003322",
+      "source": "Surf&Snow",
+      "title": "エイブル白馬五竜・Hakuba47 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003322/",
+      "resort_ids": [
+        "hakuba-goryu",
+        "hakuba47-winter-sports-park"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-15",
+      "checked_at": "2026-10-25T00:43:34.620Z"
+    },
+    "surfsnow_000000003323": {
+      "product_id": "000000003323",
+      "source": "Surf&Snow",
+      "title": "エイブル白馬五竜・Hakuba47 早割リフト1日券<小人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003323/",
+      "resort_ids": [
+        "hakuba-goryu",
+        "hakuba47-winter-sports-park"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-15",
+      "checked_at": "2026-10-25T00:43:36.025Z"
+    },
+    "surfsnow_000000003327": {
+      "product_id": "000000003327",
+      "source": "Surf&Snow",
+      "title": "神立スノーリゾート 早割リフト1日券＜大人＞",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003327/",
+      "resort_ids": [
+        "kandatsu-snow-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-10",
+      "checked_at": "2026-10-25T00:43:37.344Z"
+    },
+    "surfsnow_000000003330": {
+      "product_id": "000000003330",
+      "source": "Surf&Snow",
+      "title": "苗場スキー場1日券 または かぐらスキー場 早割 1日券×2回券",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003330/",
+      "resort_ids": [
+        "naeba-ski-resort",
+        "kagura-ski-resort"
+      ],
+      "status": "已缺貨",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-11-15",
+      "checked_at": "2026-10-25T00:43:38.653Z"
+    },
+    "surfsnow_000000003337": {
+      "product_id": "000000003337",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】エイブル白馬五竜・Hakuba47 早割リフト1日券＜大人＞",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003337/",
+      "resort_ids": [
+        "hakuba-goryu",
+        "hakuba47-winter-sports-park"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-15",
+      "checked_at": "2026-10-25T00:43:39.752Z"
+    },
+    "surfsnow_000000003338": {
+      "product_id": "000000003338",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】エイブル白馬五竜・Hakuba47 早割リフト1日券<小人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003338/",
+      "resort_ids": [
+        "hakuba-goryu",
+        "hakuba47-winter-sports-park"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-15",
+      "checked_at": "2026-10-25T00:43:41.144Z"
+    },
+    "surfsnow_000000003343": {
+      "product_id": "000000003343",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】苗場・かぐら共通 Mt.Naeba 早割1日券",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003343/",
+      "resort_ids": [
+        "naeba-ski-resort",
+        "kagura-ski-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-11-15",
+      "checked_at": "2026-10-25T00:43:42.461Z"
+    },
+    "surfsnow_000000003416": {
+      "product_id": "000000003416",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】神立スノーリゾート 早割リフト1日券<大人>",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003416/",
+      "resort_ids": [
+        "kandatsu-snow-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-10",
+      "checked_at": "2026-10-25T00:43:43.769Z"
+    },
+    "surfsnow_000000003446": {
+      "product_id": "000000003446",
+      "source": "Surf&Snow",
+      "title": "ふじてんスノーリゾート 早割リフト1日券",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003446/",
+      "resort_ids": [
+        "fujiten-snow-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-13",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:43:45.121Z"
+    },
+    "surfsnow_000000003450": {
+      "product_id": "000000003450",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】ふじてんスノーリゾート 早割リフト1日券",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003450/",
+      "resort_ids": [
+        "fujiten-snow-resort"
+      ],
+      "status": "有購物車入口（未驗證結帳）",
+      "sale_start": "2026-10-13",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-25T00:43:46.468Z"
+    }
+  },
+  "scout_news": {
+    "-img-src--https---steep-jp-wp-content-uploads-2023": {
+      "source": "STEEP 滑雪專業媒體",
+      "title": "<img src=\"https://steep.jp/wp-content/uploads/2023/12/main_yuzawanakazato.jpg\" class=\"c-postThumb__img u-obf-cover\" alt=\"\">\t\n\t\n\t\t\t\t\t\n\t\t\t\t26-27スキー場「早割」シーズン券情報｜早いほど安く、特典が充実【2026年9月27日更新】",
+      "url": "https://steep.jp/topics/38365/",
+      "updated_at": "2026-10-21T08:10:00.371Z"
+    },
+    "-img-src--https---steep-jp-wp-content-uploads-2025": {
+      "source": "STEEP 滑雪專業媒體",
+      "title": "<img src=\"https://steep.jp/wp-content/uploads/2025/10/hayawari.png\" class=\"c-postThumb__img u-obf-cover\" alt=\"\">\t\n\t\n\t\t\t\t\t\n\t\t\t\t26-27 スキー場早割リフト券販売情報｜1日券がもう買える！【2026年9月4日更新】\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t2026/09/04\n\t\tTOPICS",
+      "url": "https://steep.jp/topics/82273/",
+      "updated_at": "2026-09-07T02:01:23.962Z"
+    },
+    "-img-src--https---steep-jp-wp-content-uploads-2026": {
+      "source": "STEEP 滑雪專業媒體",
+      "title": "<img src=\"https://steep.jp/wp-content/uploads/2026/09/frame_lift_2.png\" class=\"c-postThumb__img u-obf-cover\" alt=\"\">\t\n\t\n\t\t\t\t\t\n\t\t\t\t26-27スキー場「早割」リフト券情報｜事前購入で1日券が安く買える【2026年10月17日更新】",
+      "url": "https://steep.jp/topics/82273/",
+      "updated_at": "2026-10-21T08:10:00.370Z"
+    },
+    "2026-07-10--------NEWS----------------------------": {
+      "source": "Snownavi 專業情報網",
+      "title": "2026.07.10\t\t\t\t\t\t\t\tNEWS\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t峰の原高原 超早割シーズン券ほぼ完売",
+      "url": "https://www.snownavi.com/topics/news_26071001",
+      "updated_at": "2026-07-20T06:04:07.350Z"
+    },
+    "26-27----場-早割-----券販売情報-早---安--特典-充実-2026年7月27日更新-": {
+      "source": "STEEP 滑雪專業媒體",
+      "title": "26-27 スキー場「早割」シーズン券販売情報｜早いほど安い＆特典も充実【2026年7月27日更新】\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t2026/07/27\n\t\tTOPICS",
+      "url": "https://steep.jp/topics/38365/",
+      "updated_at": "2026-08-12T12:49:31.601Z"
+    },
+    "26-27----場-早割-----券販売情報-早---安--特典-充実-2026年8月12日更新-": {
+      "source": "STEEP 滑雪專業媒體",
+      "title": "26-27 スキー場「早割」シーズン券販売情報｜早いほど安い＆特典も充実【2026年8月12日更新】\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t2026/08/12\n\t\tTOPICS",
+      "url": "https://steep.jp/topics/38365/",
+      "updated_at": "2026-08-13T12:50:33.542Z"
+    },
+    "26-27----場-早割----券販売情報-1日券---買----2026年8月9日更新-----": {
+      "source": "STEEP 滑雪專業媒體",
+      "title": "26-27 スキー場“早割”リフト券販売情報｜1日券がもう買える！【2026年8月9日更新】\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t2026/08/09\n\t\tTOPICS",
+      "url": "https://steep.jp/topics/82273/",
+      "updated_at": "2026-08-10T01:04:52.911Z"
+    },
+    "26-27----場早割---券販売情報-1日券---買----2026年8月9日更新-------": {
+      "source": "STEEP 滑雪專業媒體",
+      "title": "26-27 スキー場早割リフト券販売情報｜1日券がもう買える！【2026年8月9日更新】\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t2026/08/09\n\t\tTOPICS",
+      "url": "https://steep.jp/topics/82273/",
+      "updated_at": "2026-08-13T12:50:33.543Z"
+    },
+    "石打丸山---場-2026-27----券-販売----": {
+      "source": "SBN FREERUN 媒體",
+      "title": "石打丸山スキー場、2026-27シーズン券の販売を...",
+      "url": "https://sbn.japaho.com/ishiuchi-maruyama_seson-pass-2627/",
+      "updated_at": "2026-10-21T08:10:05.726Z"
+    }
+  }
+}
