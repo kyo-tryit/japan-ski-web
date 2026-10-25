@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⛷️ 日本滑雪情報特快車</title>
+  
+  <!-- 引入 Leaflet 地圖套件 CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  
+  <style>
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0; padding: 0; background-color: #f7fafc; color: #2d3748; 
+    }
+    
+    /* 頂部導覽列 */
+    .header { 
+      background: linear-gradient(135deg, #1a365d 0%, #2a4365 100%); color: white;
+      padding: 40px 20px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+    }
+    .header h1 { margin: 0 0 20px 0; font-size: 32px; letter-spacing: 1px; }
+    
+    /* 搜尋與控制台區塊 */
+    .filter-container { 
+      max-width: 1200px; margin: -25px auto 30px auto; background: white;
+      padding: 20px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); 
+      display: flex; flex-direction: column; gap: 15px; box-sizing: border-box;
+    }
+    .search-box { 
+      width: 100%; padding: 12px 20px; border: 2px solid #e2e8f0; 
+      border-radius: 8px; font-size: 16px; box-sizing: border-box; 
+      outline: none; transition: border 0.2s; 
+    }
+    .search-box:focus { border-color: #3182ce; }
+    
+    .region-tabs { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+    .tab-btn { 
+      background: #edf2f7; border: none; padding: 10px 20px; border-radius: 20px;
+      font-size: 14px; font-weight: bold; cursor: pointer; color: #4a5568; transition: all 0.2s; 
+    }
+    .tab-btn:hover { background: #e2e8f0; }
+    .tab-btn.active { background: #3182ce; color: white; box-shadow: 0 2px 8px rgba(49,130,206,0.4); }
+    
+    .loading { text-align: center; font-size: 18px; color: #666; margin-top: 50px; }
+    
+    /* 核心主排版：左右分欄 */
+    .main-content {
+      display: flex;
+      gap: 25px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px 40px 20px;
+      box-sizing: border-box;
+    }
+    
+    /* 左側雪場清單區 */
+    .list-side {
+      flex: 1.2;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    /* 右側黏性固定地圖區 */
+    .map-side {
+      flex: 1;
+      position: sticky;
+      top: 20px; /* 當捲動到最上方時固定住 */
+      height: calc(100vh - 80px); /* 適配視窗高度 */
+      min-height: 500px;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      border: 1px solid #e2e8f0;
+      z-index: 10;
+    }
+    #map-viewport {
+      width: 100%;
+      height: 100%;
+      background-color: #c9e6f2; /* 讓海洋呈現乾淨的粉藍色 */
+    }
+    
+    /* 雪場卡片樣式 */
+    .resort-card { 
+      background: white; border-radius: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02); 
+      overflow: hidden; display: flex; flex-direction: column; border: 1px solid #e2e8f0; 
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; cursor: pointer;
+    }
+    .resort-card:hover { 
+      transform: translateY(-3px); box-shadow: 0 12px 20px rgba(0,0,0,0.08); 
+      border-color: #3182ce;
+    }
+    .resort-card.active-card {
+      border: 2px solid #e53e3e;
+      background-color: #fffaf0;
+    }
+    
+    .card-body { padding: 20px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 15px; min-height: 120px; }
+    
+    /* 左半邊天氣 */
+    .left-weather { display: flex; flex-direction: column; justify-content: space-between; }
+    .resort-name { font-size: 19px; font-weight: bold; color: #1a202c; margin-bottom: 2px; }
+    .resort-pref { 
+      font-size: 12px; color: #2b6cb0; font-weight: bold; background: #ebf8ff;
+      padding: 3px 8px; border-radius: 4px; display: inline-block; margin-bottom: 8px; 
+    }
+    .weather-item { font-size: 13px; margin: 4px 0; color: #4a5568; }
+    .weather-item strong { color: #2d3748; font-size: 14px; }
+    
+    /* 右半邊早鳥 */
+    .right-deal { display: flex; flex-direction: column; justify-content: center; align-items: center; border-left: 1px dashed #e2e8f0; padding-left: 15px; text-align: center; }
+    .status-badge { width: 100%; padding: 12px 8px; border-radius: 8px; font-size: 13px; font-weight: bold; box-sizing: border-box; }
+    .status-active { background-color: #e6fffa; color: #006d5b; border: 1px solid #b2f5ea; }
+    .status-none { background-color: #f7fafc; color: #4a5568; border: 1px solid #e2e8f0; }
+    
+    /* 多票券資訊：保留雪場卡片佈局，票券獨立顯示 */
+    .ticket-list { border-top: 1px solid #edf2f7; padding: 10px 14px 14px; display: grid; gap: 8px; }
+    .ticket-list-title { color: #4a5568; font-weight: 700; font-size: 12px; }
+    .ticket-item { display: flex; align-items: flex-start; gap: 10px; justify-content: space-between; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px; }
+    .ticket-info { min-width: 0; flex: 1; }
+    .ticket-name { font-size: 12px; font-weight: 700; line-height: 1.5; overflow-wrap: anywhere; }
+    .ticket-meta { color: #718096; font-size: 11px; margin-top: 4px; line-height: 1.5; }
+    .ticket-state { color: #4a5568; font-size: 11px; margin-top: 5px; font-weight: 700; }
+    .ticket-state.current { color: #006d5b; }
+    .ticket-link { flex-shrink: 0; background: #3182ce; color: #fff; font-size: 12px; font-weight: 700; border-radius: 6px; padding: 8px 10px; text-decoration: none; }
+    .ticket-link:hover { background: #2b6cb0; }
+    .ticket-more summary { cursor: pointer; font-size: 12px; font-weight: 700; color: #2b6cb0; padding: 8px 2px; }
+    .ticket-more[open] { display: grid; gap: 8px; }
+    .ticket-more[open] summary { margin-bottom: 8px; }
+
+    /* 購票按鈕 */
+    .btn-link { display: block; text-align: center; background: #3182ce; color: white; padding: 12px; text-decoration: none; font-weight: bold; font-size: 14px; transition: background 0.2s; }
+    .btn-link:hover { background: #2b6cb0; }
+    
+    /* 點選雪場後，產生強烈發光呼吸燈效果 */
+    .pulse-dot-active {
+      width: 16px; height: 16px;
+      background: #e53e3e; border: 2px solid white; border-radius: 50%;
+      box-shadow: 0 0 0 rgba(229, 62, 62, 0.4);
+      animation: pulse-red 1.5s infinite;
+      z-index: 9999 !important; /* 確保發光點在最上層 */
+    }
+    @keyframes pulse-red {
+      0% { box-shadow: 0 0 0 0 rgba(229, 62, 62, 0.7); }
+      70% { box-shadow: 0 0 0 15px rgba(229, 62, 62, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(229, 62, 62, 0); }
+    }
+
+    @media (max-width: 768px) {
+      .main-content { flex-direction: column-reverse; }
+      .map-side { position: relative; top: 0; height: 350px; width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1 id="header-title">⛷️ 日本滑雪情報特快車</h1>
+    <p id="header-subtitle">實時天氣雪況 ✕ 全網早鳥票監控面板</p>
+  </div>
+
+  <div class="filter-container">
+    <!-- 💡 新增：情報哨兵特報牆區塊 -->
+    <div id="scout-news-wall" style="display: none; border-bottom: 1px dashed #e2e8f0; padding-bottom: 15px; margin-bottom: 10px;">
+      <h3 style="margin: 0 0 10px 0; font-size: 15px; color: #e53e3e; display: flex; align-items: center; gap: 5px;">
+        📢 哨兵特報牆 (滑雪圈最新情報推播)
+      </h3>
+      <div id="scout-news-list" style="display: flex; flex-direction: column; gap: 8px;">
+        <!-- 這裡會由 JavaScript 自動帶入文章 -->
+      </div>
+    </div>
+
+    <input type="text" id="search-input" class="search-box" placeholder="輸入關鍵字搜尋... (支援中文、英文、日文，如：赤倉、Naeba)">
+    <div class="region-tabs" id="region-tabs">
+      <button class="tab-btn active" data-region="all">全部地區</button>
+      <button class="tab-btn" data-region="北海道">北海道</button>
+      <button class="tab-btn" data-region="長野縣">長野縣</button>
+      <button class="tab-btn" data-region="新潟縣">新潟縣</button>
+      <button class="tab-btn" data-region="東北地區">東北地區</button>
+      <button class="tab-btn" data-region="關東與中部">關東與中部</button>
+    </div>
+  </div>
+
+  <div id="loading" class="loading">正在讀取靜態資料快照與地圖，請稍候...</div>
+
+  <!-- 核心主排版：分左右兩邊 -->
+  <div class="main-content" id="main-panel" style="display: none;">
+    <!-- 左側雪場清單 -->
+    <div class="list-side" id="resort-container"></div>
+    
+    <!-- 右側黏性固定地圖 -->
+    <div class="map-side">
+      <div id="map-viewport"></div>
+    </div>
+  </div>
+
+  <!-- 引入 Leaflet 地圖套件 JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <script type="module">
+    // 靜態 JSON 測試版：不初始化 Firebase SDK，不向 Firestore 發送請求。
+    // 測試時 JSON 放在本 HTML 同一個資料夾中。
+    const SNAPSHOT_URL = './public-data.json';
+
+    // 小型快照介面，讓原本的情報牆及雪場渲染程式維持不變。
+    function collectionSnapshot(records) {
+      const entries = Object.entries(records || {});
+      return {
+        empty: entries.length === 0,
+        forEach(callback) {
+          entries.forEach(([id, value]) => callback({ id, data: () => value }));
+        }
+      };
+    }
+
+    // 全域變數
+    let finalResortsList = []; 
+    let hasEarlyBirdAlert = false;
+    let alertUrl = "https://surfsnow.jp/shop/ticket";
+    let currentFilterRegion = "all";
+    let currentSearchKeyword = "";
+    
+    // 地圖與標記相關全域變數
+    let map;
+    let markerLayerGroup;
+    let resortCoordsMap = new Map(); // 💡 改為只儲存「當前篩選雪場」的經緯度與天氣快取，平常不繪製
+
+    // 初始化地圖元件：設定為完全靜態模式
+    function initMap() {
+      map = L.map('map-viewport', {
+        dragging: false,          // ❌ 禁用拖拽
+        zoomControl: false,       // ❌ 移除放大縮小按鈕
+        scrollWheelZoom: false,   // ❌ 禁用滾輪縮放
+        doubleClickZoom: false,  // ❌ 禁用雙擊縮放
+        touchZoom: false,         // ❌ 禁用雙指縮放
+        boxZoom: false,           // ❌ 禁用方框縮放
+        keyboard: false,          // ❌ 禁用鍵盤控制
+        attributionControl: false // ❌ 隱藏右下角版權宣告
+      }).setView([38.8, 141], 5.5); // 固定日本全國視角的黃金角度
+
+      // ❌ 原本有浮水印的 CARTO 圖磚：
+      // L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', { maxZoom: 18 }).addTo(map);
+
+      // 💡 替換為：完全免費、無 API Key、極簡清爽的 Esri 淺灰底圖
+      L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 16
+      }).addTo(map);
+
+      markerLayerGroup = L.layerGroup().addTo(map);
+    }
+
+    async function loadMasterData() {
+      try {
+        // 讀取單一公開 JSON 快照，不對 Firebase 發起網路請求。
+        const response = await fetch(SNAPSHOT_URL, { cache: 'no-cache' });
+        if (!response.ok) throw new Error(`靜態資料無法讀取：HTTP ${response.status}`);
+        const snapshot = await response.json();
+        if (!snapshot || !snapshot.resorts_info || !snapshot.ticket_offers ||
+            !snapshot.weather_cache || !snapshot.scout_news) {
+          throw new Error('靜態快照缺少必要資料');
+        }
+        if (Object.keys(snapshot.resorts_info).length !== 95 ||
+            Object.keys(snapshot.ticket_offers).length !== 84) {
+          throw new Error('靜態快照雪場或票券數量異常');
+        }
+
+        const activeSeason = snapshot.system_config?.active_season || '2026-2027';
+        document.title = `⛷️ 日本滑雪情報特快車 (${activeSeason})`;
+        document.getElementById('header-subtitle').innerText =
+          `天氣快取 ✕ ${activeSeason} 早鳥票與季票情報（定期更新）`;
+
+        const infoSnapshot = collectionSnapshot(snapshot.resorts_info);
+        const weatherSnapshot = collectionSnapshot(snapshot.weather_cache);
+        const offersSnapshot = collectionSnapshot(snapshot.ticket_offers);
+        const scoutSnapshot = collectionSnapshot(snapshot.scout_news);
+        const offersReadError = false;
+
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('main-panel').style.display = 'flex';
+
+        initMap();
+
+        // 💡 3. 渲染哨兵特報牆
+        const scoutWall = document.getElementById('scout-news-wall');
+        const scoutListContainer = document.getElementById('scout-news-list');
+        
+        if (!scoutSnapshot.empty) {
+          scoutWall.style.display = 'block';
+          scoutListContainer.innerHTML = '';
+          
+          scoutSnapshot.forEach(doc => {
+            const news = doc.data();
+            const newsItem = document.createElement('div');
+            newsItem.style.fontSize = '14px';
+            newsItem.style.display = 'flex';
+            newsItem.style.justifyContent = 'space-between';
+            newsItem.style.alignItems = 'center';
+            // 外部情報一律純文字，避免圖片或 HTML 撐破列表。
+            const label = document.createElement('span');
+            label.style.cssText = 'color: #4a5568; text-align: left; min-width: 0; overflow-wrap: anywhere;';
+            const source = document.createElement('strong');
+            source.style.color = '#e53e3e';
+            source.textContent = `[${news.source || ''}] `;
+            label.appendChild(source);
+            label.appendChild(document.createTextNode(String(news.title || '').replace(/<[^>]*>/g, '').trim()));
+            newsItem.appendChild(label);
+
+            // 保留原文連結；安全限定 http / https。
+            const link = document.createElement('a');
+            const url = String(news.url || '').trim();
+            if (url.startsWith('https://') || url.startsWith('http://')) {
+              link.href = url;
+              link.target = '_blank';
+              link.rel = 'noopener noreferrer';
+              link.style.cssText = 'color: #3182ce; text-decoration: none; font-weight: bold; margin-left: 15px; white-space: nowrap;';
+              link.textContent = '閱讀原文 ➔';
+              newsItem.appendChild(link);
+            }
+            scoutListContainer.appendChild(newsItem);
+          });
+        }
+
+        // 一張票可對應多間雪場，一間雪場也可有多張票。
+        const offersMap = new Map();
+        if (offersSnapshot) {
+          offersSnapshot.forEach(docSnap => {
+            const offer = docSnap.data();
+            if (!Array.isArray(offer.resort_ids)) return;
+            for (const resortId of offer.resort_ids) {
+              if (!offersMap.has(resortId)) offersMap.set(resortId, []);
+              offersMap.get(resortId).push(offer);
+            }
+          });
+        }
+
+        // 把天氣快取整理成以 resort_id 為 Key 的對照表
+        const weatherMap = new Map();
+        weatherSnapshot.forEach(doc => {
+          weatherMap.set(doc.id, doc.data());
+        });
+
+        // 以 resorts_info 為核心主體進行聯動配對
+        infoSnapshot.forEach((doc) => {
+          const info = doc.data();
+          const resortId = doc.id;
+          const weatherData = weatherMap.get(resortId) || {}; 
+          const ticketOffers = offersMap.get(resortId) || []; 
+
+          finalResortsList.push({
+            id: resortId,
+            name_zh: info.name_zh || info.name_ja || resortId,
+            name_en: info.name_en || "",
+            name_ja: info.name_ja || "",
+            prefecture: info.prefecture || "",
+            region: info.region || "",
+            lat: info.lat || null,
+            lon: info.lon || null,
+            temperature: weatherData.temperature,
+            snow_1h: weatherData.snow_1h,
+            weather_description: weatherData.weather_description,
+            ticket_offers: ticketOffers,
+            ticket_read_error: offersReadError
+          });
+        });
+
+        renderResorts();
+        setupEventListeners();
+      } catch (error) {
+        console.error("整合大腦資料失敗:", error);
+        document.getElementById('loading').innerText = "❌ 讀取靜態資料失敗，請確認 JSON 是否與網頁放在同一資料夾";
+      }
+    }
+
+    function renderResorts() {
+      const container = document.getElementById('resort-container');
+      container.innerHTML = "";
+
+      // 1. 執行篩選
+      const filtered = finalResortsList.filter(resort => {
+        // 三語關鍵字多重比對
+        const s = currentSearchKeyword.toLowerCase();
+        const matchKeyword = resort.name_zh.toLowerCase().includes(s) ||
+                             resort.name_en.toLowerCase().includes(s) ||
+                             resort.name_ja.toLowerCase().includes(s);
+
+        // 縣廳或大區域精準比對
+        let matchRegion = true;
+        if (currentFilterRegion !== "all") {
+          matchRegion = resort.prefecture === currentFilterRegion || 
+                        resort.region === currentFilterRegion;
+        }
+        return matchKeyword && matchRegion;
+      });
+
+      // 💡 2. 平常地圖保持 100% 乾淨：每次重新篩選、換頁，地圖標記與快取全部清空
+      markerLayerGroup.clearLayers();
+      resortCoordsMap.clear();
+
+      // 3. 渲染篩選後的卡片
+      filtered.forEach(resort => {
+        const card = document.createElement('div');
+        card.className = 'resort-card';
+        card.setAttribute('data-id', resort.id);
+
+        const temp = resort.temperature !== undefined ? `${resort.temperature}°C` : '--°C';
+        const snow1h = resort.snow_1h !== undefined ? `${resort.snow_1h} mm` : '0 mm';
+        const weatherDesc = resort.weather_description || '無天氣數據';
+
+        // 商品狀態以各筆資料為準；只有 24 小時內的檢查可標示綠燈。
+        const offers = resort.ticket_offers || [];
+        const now = Date.now();
+        const maxAge = 24 * 60 * 60 * 1000;
+        const safeDate = value => {
+          const t = Date.parse(value || '');
+          return Number.isFinite(t) ? t : null;
+        };
+        const isFresh = offer => {
+          const t = safeDate(offer.checked_at);
+          return t !== null && t <= now && now - t < maxAge;
+        };
+        const jstDate = new Intl.DateTimeFormat('sv-SE', {
+          timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit'
+        }).format(new Date());
+        const hasCart = offer => offer.status === '有購物車入口（未驗證結帳）' &&
+          offer.sale_start && offer.sale_end &&
+          offer.sale_start <= jstDate && offer.sale_end >= jstDate;
+        const ticketState = offer => {
+          if (offer.sale_end && offer.sale_end < jstDate) return '⚪ 販售期限已過';
+          if (offer.sale_start && offer.sale_start > jstDate) return '🕒 尚未到販售日';
+          if (!isFresh(offer)) return '🕒 資料待更新';
+          if (offer.status === '已缺貨') return '⚪ 已缺貨';
+          if (hasCart(offer)) return '🟢 已找到購物車入口';
+          return '❔ 尚未確認';
+        };
+        const sortedOffers = [...offers].sort((a, b) => {
+          const rank = o => hasCart(o) && isFresh(o) ? 0 :
+            o.status === '已缺貨' && isFresh(o) ? 2 : 1;
+          return rank(a) - rank(b) ||
+            (safeDate(b.checked_at) || 0) - (safeDate(a.checked_at) || 0) ||
+            String(a.product_id || '').localeCompare(String(b.product_id || ''));
+        });
+        const currentCartOffers = sortedOffers.filter(o => isFresh(o) && hasCart(o));
+        const currentSoldOut = sortedOffers.filter(o => isFresh(o) && o.status === '已缺貨');
+        const currentNotStarted = sortedOffers.some(o => isFresh(o) && o.sale_start && o.sale_start > jstDate);
+        const currentEnded = sortedOffers.some(o => o.sale_end && o.sale_end < jstDate);
+        let statusText = '❔ 尚無票券情報';
+        let statusActive = false;
+        if (resort.ticket_read_error) {
+          statusText = '❔ 票券資料暫不可用';
+        } else if (currentCartOffers.length) {
+          statusText = `🟢 ${currentCartOffers.length} 筆票券有購物車入口`;
+          statusActive = true;
+        } else if (sortedOffers.length && !sortedOffers.some(isFresh)) {
+          statusText = '🕒 票券資料待更新';
+        } else if (currentSoldOut.length) {
+          statusText = '⚪ 已查到缺貨票券';
+        } else if (currentNotStarted) {
+          statusText = '🕒 尚未到販售日';
+        } else if (currentEnded) {
+          statusText = '⚪ 販售期限已過';
+        } else if (sortedOffers.length) {
+          statusText = '❔ 票券狀態尚未確認';
+        }
+
+        card.innerHTML = `
+          <div class="card-body">
+            <div class="left-weather">
+              <div>
+                <span class="resort-pref"></span>
+                <div class="resort-name"></div>
+              </div>
+              <div>
+                <div class="weather-item">氣溫：<strong></strong></div>
+                <div class="weather-item">時降雪：<strong></strong></div>
+                <div class="weather-item">天氣：<strong></strong></div>
+              </div>
+            </div>
+            <div class="right-deal">
+              <div class="status-badge ${statusActive ? 'status-active' : 'status-none'}"></div>
+              <div class="ticket-checked-at" style="font-size:11px;color:#718096;margin-top:7px;"></div>
+            </div>
+          </div>
+        `;
+        card.querySelector('.resort-pref').textContent = `📍 ${resort.prefecture || resort.region || '未分類'}`;
+        card.querySelector('.resort-name').textContent = resort.name_zh;
+        const weatherStrong = card.querySelectorAll('.weather-item strong');
+        weatherStrong[0].textContent = temp;
+        weatherStrong[1].textContent = snow1h;
+        weatherStrong[2].textContent = weatherDesc;
+        card.querySelector('.status-badge').textContent = statusText;
+        const checkedTimes = sortedOffers.map(o => safeDate(o.checked_at)).filter(t => t !== null);
+        if (checkedTimes.length) {
+          card.querySelector('.ticket-checked-at').textContent =
+            `最後檢查：${new Date(Math.max(...checkedTimes)).toLocaleString('zh-TW', {timeZone:'Asia/Tokyo'})}（日本時間）`;
+        }
+
+        if (sortedOffers.length && !resort.ticket_read_error) {
+          const ticketList = document.createElement('div');
+          ticketList.className = 'ticket-list';
+          const heading = document.createElement('div');
+          heading.className = 'ticket-list-title';
+          heading.textContent = `票券商品（${sortedOffers.length} 筆）· 售票狀態僅供參考`;
+          ticketList.appendChild(heading);
+
+          const addTicket = (parent, offer) => {
+            const row = document.createElement('div');
+            row.className = 'ticket-item';
+            const info = document.createElement('div');
+            info.className = 'ticket-info';
+            const name = document.createElement('div');
+            name.className = 'ticket-name';
+            name.textContent = String(offer.title || '未命名商品');
+            const state = document.createElement('div');
+            state.className = 'ticket-state';
+            state.textContent = ticketState(offer);
+            if (isFresh(offer) && hasCart(offer)) state.classList.add('current');
+            const meta = document.createElement('div');
+            meta.className = 'ticket-meta';
+            const salePeriod = offer.sale_start && offer.sale_end
+              ? `販售期間：${offer.sale_start} ～ ${offer.sale_end}` : '販售期間未確認';
+            meta.textContent = salePeriod + (isFresh(offer) ? ' · 24 小時內檢查' : ' · 非即時資料');
+            info.append(name, state, meta);
+            row.appendChild(info);
+            const href = String(offer.url || '');
+            if (/^https:\/\//i.test(href)) {
+              const link = document.createElement('a');
+              link.href = href;
+              link.target = '_blank';
+              link.rel = 'noopener noreferrer';
+              link.className = 'ticket-link';
+              link.textContent = '查看票券 ↗';
+              row.appendChild(link);
+            }
+            parent.appendChild(row);
+          };
+          sortedOffers.slice(0, 2).forEach(o => addTicket(ticketList, o));
+          if (sortedOffers.length > 2) {
+            const more = document.createElement('details');
+            more.className = 'ticket-more';
+            const summary = document.createElement('summary');
+            summary.textContent = `展開其餘 ${sortedOffers.length - 2} 筆票券`;
+            more.appendChild(summary);
+            sortedOffers.slice(2).forEach(o => addTicket(more, o));
+            ticketList.appendChild(more);
+          }
+          card.appendChild(ticketList);
+        }
+
+        // 點擊左側卡片觸發地圖動態產生發光點
+        card.addEventListener('click', (e) => {
+          if (e.target.closest('a')) return;
+          focusOnResort(resort.id);
+        });
+
+        container.appendChild(card);
+
+        // 將合格雪場的地理資訊存進 JavaScript 快取 Map 中
+        if (resort.lat && resort.lon) {
+          resortCoordsMap.set(resort.id, {
+            lat: resort.lat,
+            lon: resort.lon,
+            name_zh: resort.name_zh,
+            prefecture: resort.prefecture,
+            temp: temp,
+            weatherDesc: weatherDesc
+          });
+        }
+      });
+
+      // 4. 無符合條件處理
+      if (filtered.length === 0) {
+        container.innerHTML = `<div style="grid-column: 1/-1; text-align:center; color:#999; padding:40px;">🔍 找不到符合條件的雪場</div>`;
+      }
+    }
+
+    // 💡 點選雪場後，動態在地圖上產生「唯一一個」紅色呼吸發光燈
+    function focusOnResort(resortId) {
+      // 1. 去除所有左側卡片的 active 樣式，並幫選中的卡片高亮
+      document.querySelectorAll('.resort-card').forEach(card => {
+        card.classList.remove('active-card');
+      });
+
+      const targetCard = document.querySelector(`.resort-card[data-id="${resortId}"]`);
+      if (targetCard) {
+        targetCard.classList.add('active-card');
+        targetCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+
+      // 2. 清空地圖上所有先前留下的發光點（確保永遠只顯示當前點選的這一個）
+      markerLayerGroup.clearLayers();
+
+      // 3. 從暫存的經緯度 Map 中，抓出該雪場的位置，動態生成呼吸發光燈
+      const resort = resortCoordsMap.get(resortId);
+      if (resort) {
+        const activeIcon = L.divIcon({
+          className: 'custom-dot-container',
+          html: `<div class="pulse-dot-active"></div>`,
+          iconSize: [16, 16],
+          iconAnchor: [8, 8]
+        });
+
+        // 建立這個唯一的 Marker (設定 autoPan: false 保持地圖靜止不動)
+        const marker = L.marker([resort.lat, resort.lon], { icon: activeIcon })
+          .bindPopup(`
+            <div style="font-family: sans-serif; font-size:13px; line-height: 1.4;">
+              <b style="font-size: 14px; color:#1a365d;">${resort.name_zh}</b><br>
+              地區：${resort.prefecture}<br>
+              氣溫：${resort.temp}<br>
+              狀態：${resort.weatherDesc}
+            </div>
+          `, { autoPan: false })
+          .addTo(markerLayerGroup);
+
+        // 自動彈出氣泡窗
+        marker.openPopup();
+      }
+    }
+
+    // 監聽器配置 (搜尋與按鈕)
+    function setupEventListeners() {
+      // 監聽搜尋框輸入：當重新打字搜尋時，地圖會自動清空
+      document.getElementById('search-input').addEventListener('input', (e) => {
+        currentSearchKeyword = e.target.value.trim();
+        renderResorts();
+      });
+
+      // 監聽地區頁籤切換：當切換地區時，地圖也會自動清空
+      const tabs = document.querySelectorAll('.tab-btn');
+      tabs.forEach(tab => {
+        tab.addEventListener('click', (e) => {
+          tabs.forEach(t => t.classList.remove('active'));
+          e.target.classList.add('active');
+          currentFilterRegion = e.target.getAttribute('data-region');
+          renderResorts();
+        });
+      });
+    }
+
+    loadMasterData();
+  </script>
+</body>
+</html>
