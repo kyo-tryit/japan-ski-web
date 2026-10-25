@@ -101,6 +101,7 @@
     /* 左半邊天氣 */
     .left-weather { display: flex; flex-direction: column; justify-content: space-between; }
     .resort-name { font-size: 19px; font-weight: bold; color: #1a202c; margin-bottom: 2px; }
+    .resort-name-ja { font-size: 13px; line-height: 1.5; color: #718096; margin-bottom: 5px; overflow-wrap: anywhere; }
     .resort-pref { 
       font-size: 12px; color: #2b6cb0; font-weight: bold; background: #ebf8ff;
       padding: 3px 8px; border-radius: 4px; display: inline-block; margin-bottom: 8px; 
@@ -469,6 +470,7 @@
               <div>
                 <span class="resort-pref"></span>
                 <div class="resort-name"></div>
+                <div class="resort-name-ja"></div>
               </div>
               <div>
                 <div class="weather-item">氣溫：<strong></strong></div>
@@ -484,6 +486,11 @@
         `;
         card.querySelector('.resort-pref').textContent = `📍 ${resort.prefecture || resort.region || '未分類'}`;
         card.querySelector('.resort-name').textContent = resort.name_zh;
+        // 有日文原名且與主名稱不同時才顯示，避免重複。
+        const jaName = String(resort.name_ja || '').trim();
+        const nameJaEl = card.querySelector('.resort-name-ja');
+        nameJaEl.textContent = jaName && jaName !== resort.name_zh ? jaName : '';
+        nameJaEl.style.display = nameJaEl.textContent ? '' : 'none';
         const weatherStrong = card.querySelectorAll('.weather-item strong');
         weatherStrong[0].textContent = temp;
         weatherStrong[1].textContent = snow1h;
@@ -561,6 +568,7 @@
             lat: resort.lat,
             lon: resort.lon,
             name_zh: resort.name_zh,
+            name_ja: resort.name_ja,
             prefecture: resort.prefecture,
             temp: temp,
             weatherDesc: weatherDesc
@@ -572,6 +580,13 @@
       if (filtered.length === 0) {
         container.innerHTML = `<div style="grid-column: 1/-1; text-align:center; color:#999; padding:40px;">🔍 找不到符合條件的雪場</div>`;
       }
+    }
+
+    // 對地圖資訊視窗的動態文字進行 HTML 跳脫。
+    function escapeHtml(value) {
+      return String(value ?? '').replace(/[&<>"']/g, char => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      })[char]);
     }
 
     // 💡 點選雪場後，動態在地圖上產生「唯一一個」紅色呼吸發光燈
@@ -604,10 +619,11 @@
         const marker = L.marker([resort.lat, resort.lon], { icon: activeIcon })
           .bindPopup(`
             <div style="font-family: sans-serif; font-size:13px; line-height: 1.4;">
-              <b style="font-size: 14px; color:#1a365d;">${resort.name_zh}</b><br>
-              地區：${resort.prefecture}<br>
-              氣溫：${resort.temp}<br>
-              狀態：${resort.weatherDesc}
+               <b style="font-size: 14px; color:#1a365d;">${escapeHtml(resort.name_zh)}</b><br>
+               ${resort.name_ja && resort.name_ja !== resort.name_zh ? `<span style="font-size:12px;color:#718096;">${escapeHtml(resort.name_ja)}</span><br>` : ''}
+              地區：${escapeHtml(resort.prefecture)}<br>
+              氣溫：${escapeHtml(resort.temp)}<br>
+              狀態：${escapeHtml(resort.weatherDesc)}
             </div>
           `, { autoPan: false })
           .addTo(markerLayerGroup);
