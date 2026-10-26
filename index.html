@@ -315,9 +315,9 @@
             !snapshot.weather_cache || !snapshot.scout_news) {
           throw new Error('靜態快照缺少必要資料');
         }
-        if (Object.keys(snapshot.resorts_info).length !== 95 ||
+        if (Object.keys(snapshot.resorts_info).length !== 97 ||
             Object.keys(snapshot.ticket_offers).length !== 84) {
-          throw new Error('靜態快照雪場或票券數量異常');
+           throw new Error('靜態快照雪場或票券數量異常');
         }
 
         const activeSeason = snapshot.system_config?.active_season || '2026-2027';
