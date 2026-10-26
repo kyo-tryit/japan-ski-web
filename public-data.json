@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T00:54:31.215Z",
+  "generated_at": "2026-10-26T05:16:29.532Z",
   "system_config": {
     "active_season": "2026-2027"
   },
@@ -608,6 +608,15 @@
       "lat": 43.9331104,
       "lon": 142.4998309
     },
+    "romance-no-kamisama": {
+      "name_zh": "浪漫之神滑雪場（木島平）",
+      "name_ja": "スノーリゾート ロマンスの神様",
+      "name_en": "Snow Resort Romance no Kamisama",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.8201998113155,
+      "lon": 138.403473096513
+    },
     "rusutsu-resort": {
       "name_zh": "留壽都度假村",
       "name_ja": "ルスツリゾート",
@@ -769,6 +778,15 @@
       "region": "其他地區",
       "lat": 37.7744828,
       "lon": 140.1365269
+    },
+    "togakushi-ski-resort": {
+      "name_zh": "戶隱滑雪場",
+      "name_ja": "戸隠スキー場",
+      "name_en": "Togakushi Ski Resort",
+      "prefecture": "長野縣",
+      "region": "甲信越",
+      "lat": 36.7545672766408,
+      "lon": 138.094663183016
     },
     "togari-onsen": {
       "name_zh": "戶狩溫泉滑雪場",
