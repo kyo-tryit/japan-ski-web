@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T10:13:39.160Z",
+  "generated_at": "2026-10-27T10:36:27.076Z",
   "system_config": {
     "active_season": "2026-2027"
   },
@@ -1472,10 +1472,10 @@
       "resort_ids": [
         "tengendai-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-06",
-      "checked_at": "2026-10-27T01:44:27.765Z"
+      "checked_at": "2026-10-27T10:30:11.634Z"
     },
     "surfsnow_000000003049": {
       "product_id": "000000003049",
@@ -1485,10 +1485,10 @@
       "resort_ids": [
         "ryuoo-ski-park"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-10-27T01:44:29.085Z"
+      "checked_at": "2026-10-27T10:30:12.650Z"
     },
     "surfsnow_000000003050": {
       "product_id": "000000003050",
@@ -1498,10 +1498,10 @@
       "resort_ids": [
         "ryuoo-ski-park"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-10-27T01:44:30.638Z"
+      "checked_at": "2026-10-27T10:30:13.746Z"
     },
     "surfsnow_000000003053": {
       "product_id": "000000003053",
@@ -1511,10 +1511,10 @@
       "resort_ids": [
         "akakura-kanko-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-10",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-10-27T01:44:32.013Z"
+      "checked_at": "2026-10-27T10:30:14.714Z"
     },
     "surfsnow_000000003055": {
       "product_id": "000000003055",
@@ -1524,10 +1524,10 @@
       "resort_ids": [
         "cupid-valley"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-10-27T01:44:33.120Z"
+      "checked_at": "2026-10-27T10:30:15.631Z"
     },
     "surfsnow_000000003057": {
       "product_id": "000000003057",
@@ -1537,10 +1537,10 @@
       "resort_ids": [
         "miyagi-zao-eboshi"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:44:34.414Z"
+      "checked_at": "2026-10-27T10:30:16.562Z"
     },
     "surfsnow_000000003058": {
       "product_id": "000000003058",
@@ -1550,10 +1550,10 @@
       "resort_ids": [
         "miyagi-zao-eboshi"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:44:35.863Z"
+      "checked_at": "2026-10-27T10:30:17.555Z"
     },
     "surfsnow_000000003059": {
       "product_id": "000000003059",
@@ -1563,10 +1563,10 @@
       "resort_ids": [
         "fujimi-panorama-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-12",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-10-27T01:44:36.907Z"
+      "checked_at": "2026-10-27T10:30:18.584Z"
     },
     "surfsnow_000000003061": {
       "product_id": "000000003061",
@@ -1576,10 +1576,10 @@
       "resort_ids": [
         "fujimi-panorama-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-12",
       "sale_end": "2027-02-28",
-      "checked_at": "2026-10-27T01:44:37.956Z"
+      "checked_at": "2026-10-27T10:30:19.507Z"
     },
     "surfsnow_000000003062": {
       "product_id": "000000003062",
@@ -1589,10 +1589,10 @@
       "resort_ids": [
         "fujimi-panorama-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-12",
       "sale_end": "2027-02-28",
-      "checked_at": "2026-10-27T01:44:39.414Z"
+      "checked_at": "2026-10-27T10:30:20.513Z"
     },
     "surfsnow_000000003064": {
       "product_id": "000000003064",
@@ -1602,10 +1602,10 @@
       "resort_ids": [
         "ikenotaira-onsen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-10-27T01:44:40.933Z"
+      "checked_at": "2026-10-27T10:30:21.472Z"
     },
     "surfsnow_000000003066": {
       "product_id": "000000003066",
@@ -1615,10 +1615,10 @@
       "resort_ids": [
         "maiko-snow-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-10-27T01:44:41.988Z"
+      "checked_at": "2026-10-27T10:30:22.464Z"
     },
     "surfsnow_000000003067": {
       "product_id": "000000003067",
@@ -1628,10 +1628,10 @@
       "resort_ids": [
         "maiko-snow-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-10-27T01:44:43.367Z"
+      "checked_at": "2026-10-27T10:30:23.404Z"
     },
     "surfsnow_000000003082": {
       "product_id": "000000003082",
@@ -1641,10 +1641,10 @@
       "resort_ids": [
         "ryuoo-ski-park"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-10-27T01:44:44.402Z"
+      "checked_at": "2026-10-27T10:30:24.316Z"
     },
     "surfsnow_000000003083": {
       "product_id": "000000003083",
@@ -1654,10 +1654,10 @@
       "resort_ids": [
         "ryuoo-ski-park"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-10-27T01:44:45.783Z"
+      "checked_at": "2026-10-27T10:30:25.409Z"
     },
     "surfsnow_000000003084": {
       "product_id": "000000003084",
@@ -1667,10 +1667,10 @@
       "resort_ids": [
         "akakura-kanko-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-10",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-10-27T01:44:46.881Z"
+      "checked_at": "2026-10-27T10:30:26.321Z"
     },
     "surfsnow_000000003086": {
       "product_id": "000000003086",
@@ -1680,10 +1680,10 @@
       "resort_ids": [
         "cupid-valley"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-10-27T01:44:48.014Z"
+      "checked_at": "2026-10-27T10:30:27.309Z"
     },
     "surfsnow_000000003087": {
       "product_id": "000000003087",
@@ -1693,10 +1693,10 @@
       "resort_ids": [
         "fujimi-panorama-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-12",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-10-27T01:44:49.539Z"
+      "checked_at": "2026-10-27T10:30:28.252Z"
     },
     "surfsnow_000000003091": {
       "product_id": "000000003091",
@@ -1706,10 +1706,10 @@
       "resort_ids": [
         "ikenotaira-onsen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-10-27T01:44:50.674Z"
+      "checked_at": "2026-10-27T10:30:29.188Z"
     },
     "surfsnow_000000003093": {
       "product_id": "000000003093",
@@ -1719,10 +1719,10 @@
       "resort_ids": [
         "maiko-snow-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-10-27T01:44:51.716Z"
+      "checked_at": "2026-10-27T10:30:30.101Z"
     },
     "surfsnow_000000003094": {
       "product_id": "000000003094",
@@ -1732,10 +1732,10 @@
       "resort_ids": [
         "maiko-snow-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-10-27T01:44:53.077Z"
+      "checked_at": "2026-10-27T10:30:31.111Z"
     },
     "surfsnow_000000003106": {
       "product_id": "000000003106",
@@ -1745,10 +1745,10 @@
       "resort_ids": [
         "white-pia-takasu"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2027-03-28",
-      "checked_at": "2026-10-27T01:44:54.441Z"
+      "checked_at": "2026-10-27T10:30:32.140Z"
     },
     "surfsnow_000000003110": {
       "product_id": "000000003110",
@@ -1758,10 +1758,10 @@
       "resort_ids": [
         "ishiuchi-maruyama"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-10-27T01:44:55.516Z"
+      "checked_at": "2026-10-27T10:30:33.082Z"
     },
     "surfsnow_000000003112": {
       "product_id": "000000003112",
@@ -1771,10 +1771,10 @@
       "resort_ids": [
         "palcall-tsumagoi"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-10-27T01:44:56.619Z"
+      "checked_at": "2026-10-27T10:30:34.006Z"
     },
     "surfsnow_000000003114": {
       "product_id": "000000003114",
@@ -1784,10 +1784,10 @@
       "resort_ids": [
         "palcall-tsumagoi"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-05",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:44:57.990Z"
+      "checked_at": "2026-10-27T10:30:34.948Z"
     },
     "surfsnow_000000003121": {
       "product_id": "000000003121",
@@ -1797,10 +1797,10 @@
       "resort_ids": [
         "palcall-tsumagoi"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-10-27T01:44:59.347Z"
+      "checked_at": "2026-10-27T10:30:35.953Z"
     },
     "surfsnow_000000003123": {
       "product_id": "000000003123",
@@ -1810,10 +1810,10 @@
       "resort_ids": [
         "palcall-tsumagoi"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-05",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:45:00.405Z"
+      "checked_at": "2026-10-27T10:30:36.946Z"
     },
     "surfsnow_000000003137": {
       "product_id": "000000003137",
@@ -1823,10 +1823,10 @@
       "resort_ids": [
         "nayoro-piyasiri"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2027-02-28",
-      "checked_at": "2026-10-27T01:45:01.691Z"
+      "checked_at": "2026-10-27T10:30:37.943Z"
     },
     "surfsnow_000000003138": {
       "product_id": "000000003138",
@@ -1836,10 +1836,10 @@
       "resort_ids": [
         "nayoro-piyasiri"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2027-02-28",
-      "checked_at": "2026-10-27T01:45:02.777Z"
+      "checked_at": "2026-10-27T10:30:38.860Z"
     },
     "surfsnow_000000003147": {
       "product_id": "000000003147",
@@ -1849,10 +1849,10 @@
       "resort_ids": [
         "fujimi-panorama-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-12",
       "sale_end": "2027-02-28",
-      "checked_at": "2026-10-27T01:45:03.821Z"
+      "checked_at": "2026-10-27T10:30:39.902Z"
     },
     "surfsnow_000000003158": {
       "product_id": "000000003158",
@@ -1862,10 +1862,10 @@
       "resort_ids": [
         "tsugaike-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-14",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:45:05.290Z"
+      "checked_at": "2026-10-27T10:30:40.909Z"
     },
     "surfsnow_000000003159": {
       "product_id": "000000003159",
@@ -1875,10 +1875,10 @@
       "resort_ids": [
         "tsugaike-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-14",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:45:06.603Z"
+      "checked_at": "2026-10-27T10:30:41.829Z"
     },
     "surfsnow_000000003160": {
       "product_id": "000000003160",
@@ -1888,10 +1888,10 @@
       "resort_ids": [
         "tsugaike-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-14",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:45:07.731Z"
+      "checked_at": "2026-10-27T10:30:42.769Z"
     },
     "surfsnow_000000003161": {
       "product_id": "000000003161",
@@ -1901,10 +1901,10 @@
       "resort_ids": [
         "tsugaike-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-14",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:45:08.894Z"
+      "checked_at": "2026-10-27T10:30:43.874Z"
     },
     "surfsnow_000000003162": {
       "product_id": "000000003162",
@@ -1914,10 +1914,10 @@
       "resort_ids": [
         "washigatake"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-10-27T01:45:10.013Z"
+      "checked_at": "2026-10-27T10:30:44.834Z"
     },
     "surfsnow_000000003175": {
       "product_id": "000000003175",
@@ -1927,10 +1927,10 @@
       "resort_ids": [
         "tsugaike-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-14",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:45:11.053Z"
+      "checked_at": "2026-10-27T10:30:45.784Z"
     },
     "surfsnow_000000003176": {
       "product_id": "000000003176",
@@ -1940,10 +1940,10 @@
       "resort_ids": [
         "tsugaike-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-14",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:45:12.618Z"
+      "checked_at": "2026-10-27T10:30:46.707Z"
     },
     "surfsnow_000000003177": {
       "product_id": "000000003177",
@@ -1953,10 +1953,10 @@
       "resort_ids": [
         "tsugaike-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-14",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:45:13.746Z"
+      "checked_at": "2026-10-27T10:30:47.662Z"
     },
     "surfsnow_000000003178": {
       "product_id": "000000003178",
@@ -1966,10 +1966,10 @@
       "resort_ids": [
         "tsugaike-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-14",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:45:14.882Z"
+      "checked_at": "2026-10-27T10:30:48.679Z"
     },
     "surfsnow_000000003179": {
       "product_id": "000000003179",
@@ -1979,10 +1979,10 @@
       "resort_ids": [
         "washigatake"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-10-27T01:45:15.997Z"
+      "checked_at": "2026-10-27T10:30:49.596Z"
     },
     "surfsnow_000000003191": {
       "product_id": "000000003191",
@@ -1992,10 +1992,10 @@
       "resort_ids": [
         "geto-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-10-27T01:45:17.148Z"
+      "checked_at": "2026-10-27T10:30:50.681Z"
     },
     "surfsnow_000000003192": {
       "product_id": "000000003192",
@@ -2005,10 +2005,10 @@
       "resort_ids": [
         "geto-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-10-27T01:45:18.207Z"
+      "checked_at": "2026-10-27T10:30:51.675Z"
     },
     "surfsnow_000000003193": {
       "product_id": "000000003193",
@@ -2018,10 +2018,10 @@
       "resort_ids": [
         "geto-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-10-27T01:45:19.676Z"
+      "checked_at": "2026-10-27T10:30:52.597Z"
     },
     "surfsnow_000000003194": {
       "product_id": "000000003194",
@@ -2031,10 +2031,10 @@
       "resort_ids": [
         "geto-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-10-27T01:45:20.749Z"
+      "checked_at": "2026-10-27T10:30:53.607Z"
     },
     "surfsnow_000000003195": {
       "product_id": "000000003195",
@@ -2044,10 +2044,10 @@
       "resort_ids": [
         "grandeco-snow-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-11",
-      "checked_at": "2026-10-27T01:45:22.066Z"
+      "checked_at": "2026-10-27T10:30:54.533Z"
     },
     "surfsnow_000000003197": {
       "product_id": "000000003197",
@@ -2057,10 +2057,10 @@
       "resort_ids": [
         "hunter-mountain-shiobara"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-27",
-      "checked_at": "2026-10-27T01:45:23.213Z"
+      "checked_at": "2026-10-27T10:30:55.521Z"
     },
     "surfsnow_000000003198": {
       "product_id": "000000003198",
@@ -2070,10 +2070,10 @@
       "resort_ids": [
         "hunter-mountain-shiobara"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-27",
-      "checked_at": "2026-10-27T01:45:24.250Z"
+      "checked_at": "2026-10-27T10:30:56.529Z"
     },
     "surfsnow_000000003199": {
       "product_id": "000000003199",
@@ -2084,10 +2084,10 @@
         "iwappara-ski-resort",
         "joetsu-kokusai"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-10-27T01:45:25.367Z"
+      "checked_at": "2026-10-27T10:30:57.538Z"
     },
     "surfsnow_000000003205": {
       "product_id": "000000003205",
@@ -2097,10 +2097,10 @@
       "resort_ids": [
         "kawaba-ski-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:45:26.832Z"
+      "checked_at": "2026-10-27T10:30:58.476Z"
     },
     "surfsnow_000000003206": {
       "product_id": "000000003206",
@@ -2110,10 +2110,10 @@
       "resort_ids": [
         "kawaba-ski-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:45:27.930Z"
+      "checked_at": "2026-10-27T10:30:59.468Z"
     },
     "surfsnow_000000003212": {
       "product_id": "000000003212",
@@ -2126,7 +2126,7 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-10-27T07:37:33.401Z"
+      "checked_at": "2026-10-27T10:31:00.558Z"
     },
     "surfsnow_000000003213": {
       "product_id": "000000003213",
@@ -2139,7 +2139,7 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-10-27T07:37:34.873Z"
+      "checked_at": "2026-10-27T10:31:01.473Z"
     },
     "surfsnow_000000003215": {
       "product_id": "000000003215",
@@ -2149,10 +2149,10 @@
       "resort_ids": [
         "winghills-shirotori"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-13",
-      "checked_at": "2026-10-27T01:45:28.988Z"
+      "checked_at": "2026-10-27T10:31:02.383Z"
     },
     "surfsnow_000000003216": {
       "product_id": "000000003216",
@@ -2162,10 +2162,10 @@
       "resort_ids": [
         "winghills-shirotori"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-13",
-      "checked_at": "2026-10-27T01:45:30.322Z"
+      "checked_at": "2026-10-27T10:31:03.292Z"
     },
     "surfsnow_000000003217": {
       "product_id": "000000003217",
@@ -2175,10 +2175,10 @@
       "resort_ids": [
         "winghills-shirotori"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2027-03-07",
-      "checked_at": "2026-10-27T01:45:31.370Z"
+      "checked_at": "2026-10-27T10:31:04.299Z"
     },
     "surfsnow_000000003218": {
       "product_id": "000000003218",
@@ -2188,10 +2188,10 @@
       "resort_ids": [
         "winghills-shirotori"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2027-03-07",
-      "checked_at": "2026-10-27T01:45:32.752Z"
+      "checked_at": "2026-10-27T10:31:05.299Z"
     },
     "surfsnow_000000003219": {
       "product_id": "000000003219",
@@ -2201,10 +2201,10 @@
       "resort_ids": [
         "yuzawa-nakazato"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-10-27T01:45:33.861Z"
+      "checked_at": "2026-10-27T10:31:06.286Z"
     },
     "surfsnow_000000003220": {
       "product_id": "000000003220",
@@ -2214,10 +2214,10 @@
       "resort_ids": [
         "yuzawa-nakazato"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-10-27T01:45:34.901Z"
+      "checked_at": "2026-10-27T10:31:07.336Z"
     },
     "surfsnow_000000003238": {
       "product_id": "000000003238",
@@ -2227,10 +2227,10 @@
       "resort_ids": [
         "geto-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-10-27T01:45:35.941Z"
+      "checked_at": "2026-10-27T10:31:08.252Z"
     },
     "surfsnow_000000003239": {
       "product_id": "000000003239",
@@ -2240,10 +2240,10 @@
       "resort_ids": [
         "geto-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-10-27T01:45:37.258Z"
+      "checked_at": "2026-10-27T10:31:09.249Z"
     },
     "surfsnow_000000003240": {
       "product_id": "000000003240",
@@ -2253,10 +2253,10 @@
       "resort_ids": [
         "geto-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-10-27T01:45:38.570Z"
+      "checked_at": "2026-10-27T10:31:10.236Z"
     },
     "surfsnow_000000003241": {
       "product_id": "000000003241",
@@ -2266,10 +2266,10 @@
       "resort_ids": [
         "geto-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-10-27T01:45:39.601Z"
+      "checked_at": "2026-10-27T10:31:11.228Z"
     },
     "surfsnow_000000003242": {
       "product_id": "000000003242",
@@ -2279,10 +2279,10 @@
       "resort_ids": [
         "grandeco-snow-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-11",
-      "checked_at": "2026-10-27T01:45:40.912Z"
+      "checked_at": "2026-10-27T10:31:12.235Z"
     },
     "surfsnow_000000003244": {
       "product_id": "000000003244",
@@ -2292,10 +2292,10 @@
       "resort_ids": [
         "hunter-mountain-shiobara"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-27",
-      "checked_at": "2026-10-27T01:45:42.305Z"
+      "checked_at": "2026-10-27T10:31:13.160Z"
     },
     "surfsnow_000000003245": {
       "product_id": "000000003245",
@@ -2305,10 +2305,10 @@
       "resort_ids": [
         "hunter-mountain-shiobara"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-27",
-      "checked_at": "2026-10-27T01:45:43.686Z"
+      "checked_at": "2026-10-27T10:31:14.164Z"
     },
     "surfsnow_000000003276": {
       "product_id": "000000003276",
@@ -2318,10 +2318,10 @@
       "resort_ids": [
         "kawaba-ski-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:45:44.789Z"
+      "checked_at": "2026-10-27T10:31:15.173Z"
     },
     "surfsnow_000000003277": {
       "product_id": "000000003277",
@@ -2331,10 +2331,10 @@
       "resort_ids": [
         "kawaba-ski-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:45:45.862Z"
+      "checked_at": "2026-10-27T10:31:16.121Z"
     },
     "surfsnow_000000003278": {
       "product_id": "000000003278",
@@ -2344,10 +2344,10 @@
       "resort_ids": [
         "minakami-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-10-27T01:45:46.917Z"
+      "checked_at": "2026-10-27T10:31:17.121Z"
     },
     "surfsnow_000000003279": {
       "product_id": "000000003279",
@@ -2357,10 +2357,10 @@
       "resort_ids": [
         "minakami-kogen"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-10-27T01:45:48.050Z"
+      "checked_at": "2026-10-27T10:31:18.142Z"
     },
     "surfsnow_000000003288": {
       "product_id": "000000003288",
@@ -2370,10 +2370,10 @@
       "resort_ids": [
         "shirakabako-royal-hill"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-10-27T01:45:49.167Z"
+      "checked_at": "2026-10-27T10:31:19.208Z"
     },
     "surfsnow_000000003299": {
       "product_id": "000000003299",
@@ -2383,10 +2383,10 @@
       "resort_ids": [
         "winghills-shirotori"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-13",
-      "checked_at": "2026-10-27T01:45:50.198Z"
+      "checked_at": "2026-10-27T10:31:20.145Z"
     },
     "surfsnow_000000003300": {
       "product_id": "000000003300",
@@ -2396,10 +2396,10 @@
       "resort_ids": [
         "winghills-shirotori"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-13",
-      "checked_at": "2026-10-27T01:45:51.305Z"
+      "checked_at": "2026-10-27T10:31:21.159Z"
     },
     "surfsnow_000000003301": {
       "product_id": "000000003301",
@@ -2409,10 +2409,10 @@
       "resort_ids": [
         "winghills-shirotori"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2027-03-07",
-      "checked_at": "2026-10-27T01:45:52.672Z"
+      "checked_at": "2026-10-27T10:31:22.257Z"
     },
     "surfsnow_000000003302": {
       "product_id": "000000003302",
@@ -2422,10 +2422,10 @@
       "resort_ids": [
         "winghills-shirotori"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2027-03-07",
-      "checked_at": "2026-10-27T01:45:54.063Z"
+      "checked_at": "2026-10-27T10:31:23.267Z"
     },
     "surfsnow_000000003305": {
       "product_id": "000000003305",
@@ -2435,10 +2435,10 @@
       "resort_ids": [
         "yuzawa-nakazato"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-10-27T01:45:55.108Z"
+      "checked_at": "2026-10-27T10:31:24.270Z"
     },
     "surfsnow_000000003306": {
       "product_id": "000000003306",
@@ -2448,10 +2448,10 @@
       "resort_ids": [
         "yuzawa-nakazato"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-10-27T01:45:56.152Z"
+      "checked_at": "2026-10-27T10:31:25.282Z"
     },
     "surfsnow_000000003322": {
       "product_id": "000000003322",
@@ -2462,10 +2462,10 @@
         "hakuba-goryu",
         "hakuba47-winter-sports-park"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-10-27T01:45:57.476Z"
+      "checked_at": "2026-10-27T10:31:26.264Z"
     },
     "surfsnow_000000003323": {
       "product_id": "000000003323",
@@ -2476,10 +2476,10 @@
         "hakuba-goryu",
         "hakuba47-winter-sports-park"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-10-27T01:45:58.875Z"
+      "checked_at": "2026-10-27T10:31:27.190Z"
     },
     "surfsnow_000000003327": {
       "product_id": "000000003327",
@@ -2489,10 +2489,10 @@
       "resort_ids": [
         "kandatsu-snow-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-10",
-      "checked_at": "2026-10-27T01:46:00.304Z"
+      "checked_at": "2026-10-27T10:31:28.109Z"
     },
     "surfsnow_000000003330": {
       "product_id": "000000003330",
@@ -2503,10 +2503,10 @@
         "naeba-ski-resort",
         "kagura-ski-resort"
       ],
-      "status": "已缺貨",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-15",
-      "checked_at": "2026-10-27T01:46:01.459Z"
+      "checked_at": "2026-10-27T10:31:29.138Z"
     },
     "surfsnow_000000003333": {
       "product_id": "000000003333",
@@ -2520,7 +2520,7 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-31",
-      "checked_at": "2026-10-27T07:37:31.946Z"
+      "checked_at": "2026-10-27T10:31:30.054Z"
     },
     "surfsnow_000000003337": {
       "product_id": "000000003337",
@@ -2531,10 +2531,10 @@
         "hakuba-goryu",
         "hakuba47-winter-sports-park"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-10-27T01:46:02.508Z"
+      "checked_at": "2026-10-27T10:31:31.000Z"
     },
     "surfsnow_000000003338": {
       "product_id": "000000003338",
@@ -2545,10 +2545,10 @@
         "hakuba-goryu",
         "hakuba47-winter-sports-park"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-10-27T01:46:03.585Z"
+      "checked_at": "2026-10-27T10:31:32.022Z"
     },
     "surfsnow_000000003343": {
       "product_id": "000000003343",
@@ -2559,10 +2559,10 @@
         "naeba-ski-resort",
         "kagura-ski-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-15",
-      "checked_at": "2026-10-27T01:46:04.682Z"
+      "checked_at": "2026-10-27T10:31:32.953Z"
     },
     "surfsnow_000000003416": {
       "product_id": "000000003416",
@@ -2572,10 +2572,10 @@
       "resort_ids": [
         "kandatsu-snow-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-10",
-      "checked_at": "2026-10-27T01:46:05.990Z"
+      "checked_at": "2026-10-27T10:31:33.966Z"
     },
     "surfsnow_000000003446": {
       "product_id": "000000003446",
@@ -2585,10 +2585,10 @@
       "resort_ids": [
         "fujiten-snow-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-13",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:46:07.023Z"
+      "checked_at": "2026-10-27T10:31:34.933Z"
     },
     "surfsnow_000000003450": {
       "product_id": "000000003450",
@@ -2598,10 +2598,10 @@
       "resort_ids": [
         "fujiten-snow-resort"
       ],
-      "status": "有購物車入口（未驗證結帳）",
+      "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-13",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-10-27T01:46:08.317Z"
+      "checked_at": "2026-10-27T10:31:36.001Z"
     }
   },
   "scout_news": {
