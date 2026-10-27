@@ -216,7 +216,7 @@
     const SNAPSHOT_URL = './public-data.json';
 
     // 每次正式發布 HTML 新版時，請更新此版本號（只需修改這一行）。
-    const SITE_VERSION = '2026.10.27.1';
+    const SITE_VERSION = '2026.10.27.2';
     document.getElementById('site-version-footer').textContent = `網站版本 ${SITE_VERSION}`;
 
     // 檢查線上的 HTML，而非 JSON；查詢參數降低讀到舊快取的機率。
@@ -462,61 +462,94 @@
         const snow1h = resort.snow_1h !== undefined ? `${resort.snow_1h} mm` : '0 mm';
         const weatherDesc = resort.weather_description || '無天氣數據';
 
-        // 商品狀態以各筆資料為準；只有 24 小時內的檢查可標示綠燈。
+        
+        // 票券是情報，不是購票保證。
+        // 只依公告販售日期判斷，不依賴購物車或庫存。
         const offers = resort.ticket_offers || [];
-        const now = Date.now();
-        const maxAge = 24 * 60 * 60 * 1000;
+
         const safeDate = value => {
           const t = Date.parse(value || '');
           return Number.isFinite(t) ? t : null;
         };
-        const isFresh = offer => {
-          const t = safeDate(offer.checked_at);
-          return t !== null && t <= now && now - t < maxAge;
-        };
+
         const jstDate = new Intl.DateTimeFormat('sv-SE', {
-          timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit'
+          timeZone: 'Asia/Tokyo',
+          year: 'numeric',
+          month: '2-digit',
+          day: '2-digit'
         }).format(new Date());
-        const hasCart = offer => offer.status === '有購物車入口（未驗證結帳）' &&
-          offer.sale_start && offer.sale_end &&
-          offer.sale_start <= jstDate && offer.sale_end >= jstDate;
-        const ticketState = offer => {
-          if (offer.sale_end && offer.sale_end < jstDate) return '⚪ 販售期限已過';
-          if (offer.sale_start && offer.sale_start > jstDate) return '🕒 尚未到販售日';
-          if (!isFresh(offer)) return '🕒 資料待更新';
-          if (offer.status === '已缺貨') return '⚪ 已缺貨';
-          if (hasCart(offer)) return '🟢 已找到購物車入口';
-          return '❔ 尚未確認';
+
+        const validSaleDate = value =>
+          /^\d{4}-\d{2}-\d{2}$/.test(value || '') &&
+          safeDate(value) !== null &&
+          new Date(safeDate(value)).toISOString().slice(0, 10) === value;
+
+        const ticketCategory = offer => {
+          const start = offer.sale_start;
+          const end = offer.sale_end;
+
+          if (!validSaleDate(start) ||
+              !validSaleDate(end) ||
+              start > end) return 'unknown';
+
+          if (jstDate < start) return 'upcoming';
+          if (jstDate > end) return 'ended';
+          return 'active';
         };
-        const sortedOffers = [...offers].sort((a, b) => {
-          const rank = o => hasCart(o) && isFresh(o) ? 0 :
-            o.status === '已缺貨' && isFresh(o) ? 2 : 1;
-          return rank(a) - rank(b) ||
-            (safeDate(b.checked_at) || 0) - (safeDate(a.checked_at) || 0) ||
-            String(a.product_id || '').localeCompare(String(b.product_id || ''));
-        });
-        const currentCartOffers = sortedOffers.filter(o => isFresh(o) && hasCart(o));
-        const currentSoldOut = sortedOffers.filter(o => isFresh(o) && o.status === '已缺貨');
-        const currentNotStarted = sortedOffers.some(o => isFresh(o) && o.sale_start && o.sale_start > jstDate);
-        const currentEnded = sortedOffers.some(o => o.sale_end && o.sale_end < jstDate);
+
+        const ticketState = offer => {
+          switch (ticketCategory(offer)) {
+            case 'active': return '🟢 販售期間內';
+            case 'upcoming': return '🕒 尚未開賣';
+            case 'ended': return '⚪ 販售期限已過';
+            default: return '❔ 販售日期待確認';
+          }
+        };
+
+        const order = {
+          active: 0,
+          upcoming: 1,
+          unknown: 2,
+          ended: 3
+        };
+
+        const sortedOffers = [...offers].sort((a, b) =>
+          order[ticketCategory(a)] - order[ticketCategory(b)] ||
+          (safeDate(b.checked_at) || 0) -
+          (safeDate(a.checked_at) || 0) ||
+          String(a.product_id || '').localeCompare(
+            String(b.product_id || '')
+          )
+        );
+
+        const activeCount = sortedOffers.filter(
+          o => ticketCategory(o) === 'active'
+        ).length;
+
+        const upcomingCount = sortedOffers.filter(
+          o => ticketCategory(o) === 'upcoming'
+        ).length;
+
+        const unknownCount = sortedOffers.filter(
+          o => ticketCategory(o) === 'unknown'
+        ).length;
+
         let statusText = '❔ 尚無票券情報';
         let statusActive = false;
+
         if (resort.ticket_read_error) {
           statusText = '❔ 票券資料暫不可用';
-        } else if (currentCartOffers.length) {
-          statusText = `🟢 ${currentCartOffers.length} 筆票券有購物車入口`;
+        } else if (activeCount > 0) {
+          statusText = `🟢 ${activeCount} 筆票券在販售期間內`;
           statusActive = true;
-        } else if (sortedOffers.length && !sortedOffers.some(isFresh)) {
-          statusText = '🕒 票券資料待更新';
-        } else if (currentSoldOut.length) {
-          statusText = '⚪ 已查到缺貨票券';
-        } else if (currentNotStarted) {
-          statusText = '🕒 尚未到販售日';
-        } else if (currentEnded) {
+        } else if (upcomingCount > 0) {
+          statusText = `🕒 ${upcomingCount} 筆票券尚未開賣`;
+        } else if (unknownCount > 0) {
+          statusText = '❔ 販售日期待確認';
+        } else if (sortedOffers.length > 0) {
           statusText = '⚪ 販售期限已過';
-        } else if (sortedOffers.length) {
-          statusText = '❔ 票券狀態尚未確認';
         }
+
 
         card.innerHTML = `
           <div class="card-body">
@@ -575,12 +608,12 @@
             const state = document.createElement('div');
             state.className = 'ticket-state';
             state.textContent = ticketState(offer);
-            if (isFresh(offer) && hasCart(offer)) state.classList.add('current');
+            if (ticketCategory(offer) === 'active') state.classList.add('current');
             const meta = document.createElement('div');
             meta.className = 'ticket-meta';
             const salePeriod = offer.sale_start && offer.sale_end
               ? `販售期間：${offer.sale_start} ～ ${offer.sale_end}` : '販售期間未確認';
-            meta.textContent = salePeriod + (isFresh(offer) ? ' · 24 小時內檢查' : ' · 非即時資料');
+            meta.textContent = salePeriod + ' · 販售與庫存請以原始網站為準';
             info.append(name, state, meta);
             row.appendChild(info);
             const href = String(offer.url || '');
