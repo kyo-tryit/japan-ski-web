@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T10:36:27.076Z",
+  "generated_at": "2026-10-27T11:45:39.556Z",
   "system_config": {
     "active_season": "2026-2027"
   },
@@ -2049,6 +2049,19 @@
       "sale_end": "2026-12-11",
       "checked_at": "2026-10-27T10:30:54.533Z"
     },
+    "surfsnow_000000003196": {
+      "product_id": "000000003196",
+      "source": "Surf&Snow",
+      "title": "白馬八方尾根スキー場 早割2日券＜大人＞",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003196/",
+      "resort_ids": [
+        "hakuba-happo-one"
+      ],
+      "status": "販售期間內（未驗證庫存）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-27T11:15:20.209Z"
+    },
     "surfsnow_000000003197": {
       "product_id": "000000003197",
       "source": "Surf&Snow",
@@ -2114,6 +2127,19 @@
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-30",
       "checked_at": "2026-10-27T10:30:59.468Z"
+    },
+    "surfsnow_000000003211": {
+      "product_id": "000000003211",
+      "source": "Surf&Snow",
+      "title": "たんばらスキーパーク 早割リフト1日券＜大人＞",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003211/",
+      "resort_ids": [
+        "tambara-ski-park"
+      ],
+      "status": "販售期間內（未驗證庫存）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-11-27",
+      "checked_at": "2026-10-27T11:14:40.772Z"
     },
     "surfsnow_000000003212": {
       "product_id": "000000003212",
@@ -2284,6 +2310,19 @@
       "sale_end": "2026-12-11",
       "checked_at": "2026-10-27T10:31:12.235Z"
     },
+    "surfsnow_000000003243": {
+      "product_id": "000000003243",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】白馬八方尾根スキー場 早割2日券＜大人＞",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003243/",
+      "resort_ids": [
+        "hakuba-happo-one"
+      ],
+      "status": "販售期間內（未驗證庫存）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-11-30",
+      "checked_at": "2026-10-27T11:15:21.527Z"
+    },
     "surfsnow_000000003244": {
       "product_id": "000000003244",
       "source": "Surf&Snow",
@@ -2374,6 +2413,19 @@
       "sale_start": "2026-10-01",
       "sale_end": "2026-10-31",
       "checked_at": "2026-10-27T10:31:19.208Z"
+    },
+    "surfsnow_000000003292": {
+      "product_id": "000000003292",
+      "source": "Surf&Snow",
+      "title": "【スマリフ】たんばらスキーパーク 早割リフト1日券＜大人＞",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003292/",
+      "resort_ids": [
+        "tambara-ski-park"
+      ],
+      "status": "販售期間內（未驗證庫存）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-11-27",
+      "checked_at": "2026-10-27T11:14:42.155Z"
     },
     "surfsnow_000000003299": {
       "product_id": "000000003299",
@@ -2480,6 +2532,32 @@
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
       "checked_at": "2026-10-27T10:31:27.190Z"
+    },
+    "surfsnow_000000003325": {
+      "product_id": "000000003325",
+      "source": "Surf&Snow",
+      "title": "白馬岩岳スノーフィールド 早割リフト1日券＜大人＞",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003325/",
+      "resort_ids": [
+        "hakuba-iwatake-snow-field"
+      ],
+      "status": "販售期間內（未驗證庫存）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-13",
+      "checked_at": "2026-10-27T11:15:23.168Z"
+    },
+    "surfsnow_000000003326": {
+      "product_id": "000000003326",
+      "source": "Surf&Snow",
+      "title": "白馬岩岳スノーフィールド 早割リフト1日券＜小人＞",
+      "url": "https://ec.surfsnow.jp/shopdetail/000000003326/",
+      "resort_ids": [
+        "hakuba-iwatake-snow-field"
+      ],
+      "status": "販售期間內（未驗證庫存）",
+      "sale_start": "2026-10-01",
+      "sale_end": "2026-12-13",
+      "checked_at": "2026-10-27T11:15:24.640Z"
     },
     "surfsnow_000000003327": {
       "product_id": "000000003327",
