@@ -316,7 +316,7 @@
           throw new Error('靜態快照缺少必要資料');
         }
         if (Object.keys(snapshot.resorts_info).length !== 97 ||
-            Object.keys(snapshot.ticket_offers).length !== 87) {
+            ![87, 93].includes(Object.keys(snapshot.ticket_offers).length)) {
            throw new Error('靜態快照雪場或票券數量異常');
         }
 
