@@ -216,7 +216,7 @@
     const SNAPSHOT_URL = './public-data.json';
 
     // 每次正式發布 HTML 新版時，請更新此版本號（只需修改這一行）。
-    const SITE_VERSION = '2026.10.25.2';
+    const SITE_VERSION = '2026.10.27.1';
     document.getElementById('site-version-footer').textContent = `網站版本 ${SITE_VERSION}`;
 
     // 檢查線上的 HTML，而非 JSON；查詢參數降低讀到舊快取的機率。
@@ -316,7 +316,7 @@
           throw new Error('靜態快照缺少必要資料');
         }
         if (Object.keys(snapshot.resorts_info).length !== 97 ||
-            Object.keys(snapshot.ticket_offers).length !== 84) {
+            Object.keys(snapshot.ticket_offers).length !== 87) {
            throw new Error('靜態快照雪場或票券數量異常');
         }
 
