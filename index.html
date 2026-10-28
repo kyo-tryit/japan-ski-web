@@ -373,8 +373,79 @@ console.log(
           scoutWall.style.display = 'block';
           scoutListContainer.innerHTML = '';
 
+
+
+          // 依文章網址去重，保留更新日期較新的版本。
+          const uniqueNews = new Map();
+          const newsWithoutUrl = [];
+
+          function getNewsDate(news) {
+            // 優先辨識標題中的文章更新日期。
+            const title = String(news.title || '');
+            const match = title.match(
+              /(?:20\d{2})年\d{1,2}月\d{1,2}日|20\d{2}[\/.-]\d{1,2}[\/.-]\d{1,2}/
+            );
+
+            if (match) {
+              const parts = match[0].match(/\d+/g).map(Number);
+              const [y, m, d] = parts;
+              const date = Date.UTC(y, m - 1, d);
+
+              if (
+                new Date(date).getUTCFullYear() === y &&
+                new Date(date).getUTCMonth() === m - 1 &&
+                new Date(date).getUTCDate() === d
+              ) {
+                return date;
+              }
+            }
+
+            // 沒有可辨識日期時，不推測更新時間。
+            return 0;
+          }
+
           scoutSnapshot.forEach(doc => {
             const news = doc.data();
+            const rawUrl = String(news.url || '').trim();
+
+            if (!/^https?:\/\//i.test(rawUrl)) {
+              newsWithoutUrl.push(news);
+              return;
+            }
+
+            let key;
+
+            try {
+              const parsed = new URL(rawUrl);
+              parsed.hash = '';
+              parsed.searchParams.forEach((_, name) => {
+                if (/^(utm_|fbclid$|gclid$)/i.test(name)) {
+                  parsed.searchParams.delete(name);
+                }
+              });
+              key = parsed.href.replace(/\/$/, '');
+            } catch {
+              newsWithoutUrl.push(news);
+              return;
+            }
+
+            const previous = uniqueNews.get(key);
+
+            if (
+              !previous ||
+              getNewsDate(news) > getNewsDate(previous)
+            ) {
+              uniqueNews.set(key, news);
+            }
+          });
+
+          const displayNews = [
+            ...uniqueNews.values(),
+            ...newsWithoutUrl
+          ];
+
+          displayNews.forEach(news => {
+
             const newsItem = document.createElement('div');
             newsItem.style.fontSize = '14px';
             newsItem.style.display = 'flex';
