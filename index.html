@@ -4,46 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>⛷️ 日本滑雪情報特快車</title>
-  
+
   <!-- 引入 Leaflet 地圖套件 CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  
+
   <style>
-    body { 
+    body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      margin: 0; padding: 0; background-color: #f7fafc; color: #2d3748; 
+      margin: 0; padding: 0; background-color: #f7fafc; color: #2d3748;
     }
-    
+
     /* 頂部導覽列 */
-    .header { 
+    .header {
       background: linear-gradient(135deg, #1a365d 0%, #2a4365 100%); color: white;
-      padding: 40px 20px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+      padding: 40px 20px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
     .header h1 { margin: 0 0 20px 0; font-size: 32px; letter-spacing: 1px; }
-    
+
     /* 搜尋與控制台區塊 */
-    .filter-container { 
+    .filter-container {
       max-width: 1200px; margin: -25px auto 30px auto; background: white;
-      padding: 20px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); 
+      padding: 20px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);
       display: flex; flex-direction: column; gap: 15px; box-sizing: border-box;
     }
-    .search-box { 
-      width: 100%; padding: 12px 20px; border: 2px solid #e2e8f0; 
-      border-radius: 8px; font-size: 16px; box-sizing: border-box; 
-      outline: none; transition: border 0.2s; 
+    .search-box {
+      width: 100%; padding: 12px 20px; border: 2px solid #e2e8f0;
+      border-radius: 8px; font-size: 16px; box-sizing: border-box;
+      outline: none; transition: border 0.2s;
     }
     .search-box:focus { border-color: #3182ce; }
-    
+
     .region-tabs { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
-    .tab-btn { 
+    .tab-btn {
       background: #edf2f7; border: none; padding: 10px 20px; border-radius: 20px;
-      font-size: 14px; font-weight: bold; cursor: pointer; color: #4a5568; transition: all 0.2s; 
+      font-size: 14px; font-weight: bold; cursor: pointer; color: #4a5568; transition: all 0.2s;
     }
     .tab-btn:hover { background: #e2e8f0; }
     .tab-btn.active { background: #3182ce; color: white; box-shadow: 0 2px 8px rgba(49,130,206,0.4); }
-    
+
     .loading { text-align: center; font-size: 18px; color: #666; margin-top: 50px; }
-    
+
     /* 核心主排版：左右分欄 */
     .main-content {
       display: flex;
@@ -53,7 +53,7 @@
       padding: 0 20px 40px 20px;
       box-sizing: border-box;
     }
-    
+
     /* 左側雪場清單區 */
     .list-side {
       flex: 1.2;
@@ -61,7 +61,7 @@
       flex-direction: column;
       gap: 20px;
     }
-    
+
     /* 右側黏性固定地圖區 */
     .map-side {
       flex: 1;
@@ -80,41 +80,41 @@
       height: 100%;
       background-color: #c9e6f2; /* 讓海洋呈現乾淨的粉藍色 */
     }
-    
+
     /* 雪場卡片樣式 */
-    .resort-card { 
-      background: white; border-radius: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02); 
-      overflow: hidden; display: flex; flex-direction: column; border: 1px solid #e2e8f0; 
+    .resort-card {
+      background: white; border-radius: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+      overflow: hidden; display: flex; flex-direction: column; border: 1px solid #e2e8f0;
       transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; cursor: pointer;
     }
-    .resort-card:hover { 
-      transform: translateY(-3px); box-shadow: 0 12px 20px rgba(0,0,0,0.08); 
+    .resort-card:hover {
+      transform: translateY(-3px); box-shadow: 0 12px 20px rgba(0,0,0,0.08);
       border-color: #3182ce;
     }
     .resort-card.active-card {
       border: 2px solid #e53e3e;
       background-color: #fffaf0;
     }
-    
+
     .card-body { padding: 20px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 15px; min-height: 120px; }
-    
+
     /* 左半邊天氣 */
     .left-weather { display: flex; flex-direction: column; justify-content: space-between; }
     .resort-name { font-size: 19px; font-weight: bold; color: #1a202c; margin-bottom: 2px; }
     .resort-name-ja { font-size: 13px; line-height: 1.5; color: #718096; margin-bottom: 5px; overflow-wrap: anywhere; }
-    .resort-pref { 
+    .resort-pref {
       font-size: 12px; color: #2b6cb0; font-weight: bold; background: #ebf8ff;
-      padding: 3px 8px; border-radius: 4px; display: inline-block; margin-bottom: 8px; 
+      padding: 3px 8px; border-radius: 4px; display: inline-block; margin-bottom: 8px;
     }
     .weather-item { font-size: 13px; margin: 4px 0; color: #4a5568; }
     .weather-item strong { color: #2d3748; font-size: 14px; }
-    
+
     /* 右半邊早鳥 */
     .right-deal { display: flex; flex-direction: column; justify-content: center; align-items: center; border-left: 1px dashed #e2e8f0; padding-left: 15px; text-align: center; }
     .status-badge { width: 100%; padding: 12px 8px; border-radius: 8px; font-size: 13px; font-weight: bold; box-sizing: border-box; }
     .status-active { background-color: #e6fffa; color: #006d5b; border: 1px solid #b2f5ea; }
     .status-none { background-color: #f7fafc; color: #4a5568; border: 1px solid #e2e8f0; }
-    
+
     /* 多票券資訊：保留雪場卡片佈局，票券獨立顯示 */
     .ticket-list { border-top: 1px solid #edf2f7; padding: 10px 14px 14px; display: grid; gap: 8px; }
     .ticket-list-title { color: #4a5568; font-weight: 700; font-size: 12px; }
@@ -133,7 +133,7 @@
     /* 購票按鈕 */
     .btn-link { display: block; text-align: center; background: #3182ce; color: white; padding: 12px; text-decoration: none; font-weight: bold; font-size: 14px; transition: background 0.2s; }
     .btn-link:hover { background: #2b6cb0; }
-    
+
     /* 點選雪場後，產生強烈發光呼吸燈效果 */
     .pulse-dot-active {
       width: 16px; height: 16px;
@@ -194,7 +194,7 @@
   <div class="main-content" id="main-panel" style="display: none;">
     <!-- 左側雪場清單 -->
     <div class="list-side" id="resort-container"></div>
-    
+
     <!-- 右側黏性固定地圖 -->
     <div class="map-side">
       <div id="map-viewport"></div>
@@ -270,12 +270,12 @@
     }
 
     // 全域變數
-    let finalResortsList = []; 
+    let finalResortsList = [];
     let hasEarlyBirdAlert = false;
     let alertUrl = "https://surfsnow.jp/shop/ticket";
     let currentFilterRegion = "all";
     let currentSearchKeyword = "";
-    
+
     // 地圖與標記相關全域變數
     let map;
     let markerLayerGroup;
@@ -315,10 +315,39 @@
             !snapshot.weather_cache || !snapshot.scout_news) {
           throw new Error('靜態快照缺少必要資料');
         }
-        if (Object.keys(snapshot.resorts_info).length !== 97 ||
-            ![93, 104].includes(Object.keys(snapshot.ticket_offers).length)) {
-           throw new Error('靜態快照雪場或票券數量異常');
-        }
+
+const resortCount = Object.keys(snapshot.resorts_info || {}).length;
+const offers = snapshot.ticket_offers || {};
+const offerEntries = Object.entries(offers);
+
+// 雪場主資料目前固定為 97 筆。
+if (resortCount !== 97) {
+  throw new Error(
+    `雪場主資料數量異常：${resortCount}，預期 97`
+  );
+}
+
+// 票券採最低安全門檻，而不是固定總數。
+// 104 筆為目前基準，低於 80 筆視為大量資料遺失。
+if (offerEntries.length < 80) {
+  throw new Error(
+    `票券數量異常：目前只有 ${offerEntries.length} 筆`
+  );
+}
+
+// 確認每筆票券都是有效的資料物件。
+for (const [id, offer] of offerEntries) {
+  if (!id || !offer || typeof offer !== 'object' ||
+      Array.isArray(offer)) {
+    throw new Error(`票券資料結構異常：${id}`);
+  }
+}
+
+console.log(
+  `資料驗證通過：${resortCount} 間雪場、` +
+  `${offerEntries.length} 筆票券`
+);
+
 
         const activeSeason = snapshot.system_config?.active_season || '2026-2027';
         document.title = `⛷️ 日本滑雪情報特快車 (${activeSeason})`;
@@ -339,11 +368,11 @@
         // 💡 3. 渲染哨兵特報牆
         const scoutWall = document.getElementById('scout-news-wall');
         const scoutListContainer = document.getElementById('scout-news-list');
-        
+
         if (!scoutSnapshot.empty) {
           scoutWall.style.display = 'block';
           scoutListContainer.innerHTML = '';
-          
+
           scoutSnapshot.forEach(doc => {
             const news = doc.data();
             const newsItem = document.createElement('div');
@@ -399,8 +428,8 @@
         infoSnapshot.forEach((doc) => {
           const info = doc.data();
           const resortId = doc.id;
-          const weatherData = weatherMap.get(resortId) || {}; 
-          const ticketOffers = offersMap.get(resortId) || []; 
+          const weatherData = weatherMap.get(resortId) || {};
+          const ticketOffers = offersMap.get(resortId) || [];
 
           finalResortsList.push({
             id: resortId,
@@ -442,7 +471,7 @@
         // 縣廳或大區域精準比對
         let matchRegion = true;
         if (currentFilterRegion !== "all") {
-          matchRegion = resort.prefecture === currentFilterRegion || 
+          matchRegion = resort.prefecture === currentFilterRegion ||
                         resort.region === currentFilterRegion;
         }
         return matchKeyword && matchRegion;
@@ -462,7 +491,7 @@
         const snow1h = resort.snow_1h !== undefined ? `${resort.snow_1h} mm` : '0 mm';
         const weatherDesc = resort.weather_description || '無天氣數據';
 
-        
+
         // 票券是情報，不是購票保證。
         // 只依公告販售日期判斷，不依賴購物車或庫存。
         const offers = resort.ticket_offers || [];
