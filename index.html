@@ -584,9 +584,16 @@ console.log(
           safeDate(value) !== null &&
           new Date(safeDate(value)).toISOString().slice(0, 10) === value;
 
-        const ticketCategory = offer => {
-          const start = offer.sale_start;
-          const end = offer.sale_end;
+
+const ticketCategory = offer => {
+  // 來源異常優先於販售日期判斷。
+  if (offer.source_status === 'http_404') {
+    return 'source_error';
+  }
+
+  const start = offer.sale_start;
+  const end = offer.sale_end;
+
 
           if (!validSaleDate(start) ||
               !validSaleDate(end) ||
@@ -598,20 +605,27 @@ console.log(
         };
 
         const ticketState = offer => {
-          switch (ticketCategory(offer)) {
-            case 'active': return '🟢 販售期間內';
-            case 'upcoming': return '🕒 尚未開賣';
-            case 'ended': return '⚪ 販售期限已過';
-            default: return '❔ 販售日期待確認';
-          }
-        };
+  switch (ticketCategory(offer)) {
+    case 'source_error':
+      return '⚠️ 商品來源異常｜購買狀態待確認';
+    case 'active':
+      return '🟢 販售期間內';
+    case 'upcoming':
+      return '🕒 尚未開賣';
+    case 'ended':
+      return '⚪ 販售期限已過';
+    default:
+      return '❔ 販售日期待確認';
+  }
+};
 
-        const order = {
-          active: 0,
-          upcoming: 1,
-          unknown: 2,
-          ended: 3
-        };
+const order = {
+  active: 0,
+  upcoming: 1,
+  source_error: 2,
+  unknown: 3,
+  ended: 4
+};
 
         const sortedOffers = [...offers].sort((a, b) =>
           order[ticketCategory(a)] - order[ticketCategory(b)] ||
@@ -634,21 +648,38 @@ console.log(
           o => ticketCategory(o) === 'unknown'
         ).length;
 
-        let statusText = '❔ 尚無票券情報';
-        let statusActive = false;
+        const sourceErrorCount = sortedOffers.filter(
+  o => ticketCategory(o) === 'source_error'
+).length;
 
-        if (resort.ticket_read_error) {
-          statusText = '❔ 票券資料暫不可用';
-        } else if (activeCount > 0) {
-          statusText = `🟢 ${activeCount} 筆票券在販售期間內`;
-          statusActive = true;
-        } else if (upcomingCount > 0) {
-          statusText = `🕒 ${upcomingCount} 筆票券尚未開賣`;
-        } else if (unknownCount > 0) {
-          statusText = '❔ 販售日期待確認';
-        } else if (sortedOffers.length > 0) {
-          statusText = '⚪ 販售期限已過';
-        }
+
+let statusText = '❔ 尚無票券情報';
+let statusActive = false;
+
+if (resort.ticket_read_error) {
+  statusText = '❔ 票券資料暫不可用';
+} else if (activeCount > 0) {
+  statusText = `🟢 ${activeCount} 筆票券在販售期間內`;
+  statusActive = true;
+} else if (upcomingCount > 0) {
+  statusText = `🕒 ${upcomingCount} 筆票券尚未開賣`;
+} else if (sourceErrorCount > 0) {
+  statusText = '⚠️ 商品來源異常';
+} else if (unknownCount > 0) {
+  statusText = '❔ 販售日期待確認';
+} else if (sortedOffers.length > 0) {
+  statusText = '⚪ 販售期限已過';
+}
+
+// 同一雪場有正常票券和異常票券時，
+// 必須同時顯示異常數量。
+if (
+  sourceErrorCount > 0 &&
+  (activeCount > 0 || upcomingCount > 0)
+) {
+  statusText += `｜⚠️ ${sourceErrorCount} 筆來源異常`;
+}
+
 
 
         card.innerHTML = `
