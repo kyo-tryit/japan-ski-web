@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T03:41:50.879Z",
+  "generated_at": "2026-11-22T02:47:50.102Z",
   "system_config": {
     "active_season": "2026-2027"
   },
@@ -1475,9 +1475,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-06",
-      "checked_at": "2026-11-21T03:39:06.315Z",
+      "checked_at": "2026-11-22T02:45:15.524Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:06.315Z"
+      "source_checked_at": "2026-11-22T02:45:15.524Z"
     },
     "surfsnow_000000003049": {
       "product_id": "000000003049",
@@ -1490,9 +1490,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-11-21T03:39:07.902Z",
+      "checked_at": "2026-11-22T02:45:17.053Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:07.902Z"
+      "source_checked_at": "2026-11-22T02:45:17.053Z"
     },
     "surfsnow_000000003050": {
       "product_id": "000000003050",
@@ -1505,9 +1505,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-11-21T03:39:09.050Z",
+      "checked_at": "2026-11-22T02:45:18.513Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:09.050Z"
+      "source_checked_at": "2026-11-22T02:45:18.513Z"
     },
     "surfsnow_000000003053": {
       "product_id": "000000003053",
@@ -1520,9 +1520,9 @@
       "status": "販售期限已過",
       "sale_start": "2026-09-10",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-11-21T03:39:10.594Z",
+      "checked_at": "2026-11-22T02:45:19.649Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:10.594Z"
+      "source_checked_at": "2026-11-22T02:45:19.649Z"
     },
     "surfsnow_000000003055": {
       "product_id": "000000003055",
@@ -1535,9 +1535,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-11-21T03:39:12.232Z",
+      "checked_at": "2026-11-22T02:45:21.066Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:12.232Z"
+      "source_checked_at": "2026-11-22T02:45:21.066Z"
     },
     "surfsnow_000000003057": {
       "product_id": "000000003057",
@@ -1550,9 +1550,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:39:13.279Z",
+      "checked_at": "2026-11-22T02:45:22.133Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:13.279Z"
+      "source_checked_at": "2026-11-22T02:45:22.133Z"
     },
     "surfsnow_000000003058": {
       "product_id": "000000003058",
@@ -1565,9 +1565,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:39:14.794Z",
+      "checked_at": "2026-11-22T02:45:23.463Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:14.794Z"
+      "source_checked_at": "2026-11-22T02:45:23.463Z"
     },
     "surfsnow_000000003059": {
       "product_id": "000000003059",
@@ -1580,9 +1580,9 @@
       "status": "販售期限已過",
       "sale_start": "2026-09-12",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-11-21T03:39:15.931Z",
+      "checked_at": "2026-11-22T02:45:24.602Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:15.931Z"
+      "source_checked_at": "2026-11-22T02:45:24.602Z"
     },
     "surfsnow_000000003061": {
       "product_id": "000000003061",
@@ -1595,9 +1595,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-12",
       "sale_end": "2027-02-28",
-      "checked_at": "2026-11-21T03:39:17.406Z",
+      "checked_at": "2026-11-22T02:45:25.923Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:17.406Z"
+      "source_checked_at": "2026-11-22T02:45:25.923Z"
     },
     "surfsnow_000000003062": {
       "product_id": "000000003062",
@@ -1610,9 +1610,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-12",
       "sale_end": "2027-02-28",
-      "checked_at": "2026-11-21T03:39:19.014Z",
+      "checked_at": "2026-11-22T02:45:27.049Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:19.014Z"
+      "source_checked_at": "2026-11-22T02:45:27.049Z"
     },
     "surfsnow_000000003064": {
       "product_id": "000000003064",
@@ -1625,9 +1625,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-11-21T03:39:20.047Z",
+      "checked_at": "2026-11-22T02:45:28.580Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:20.047Z"
+      "source_checked_at": "2026-11-22T02:45:28.580Z"
     },
     "surfsnow_000000003066": {
       "product_id": "000000003066",
@@ -1640,9 +1640,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-11-21T03:39:21.549Z",
+      "checked_at": "2026-11-22T02:45:29.631Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:21.549Z"
+      "source_checked_at": "2026-11-22T02:45:29.631Z"
     },
     "surfsnow_000000003067": {
       "product_id": "000000003067",
@@ -1655,9 +1655,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-11-21T03:39:22.828Z",
+      "checked_at": "2026-11-22T02:45:30.670Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:22.828Z"
+      "source_checked_at": "2026-11-22T02:45:30.670Z"
     },
     "surfsnow_000000003082": {
       "product_id": "000000003082",
@@ -1670,9 +1670,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-11-21T03:39:23.872Z",
+      "checked_at": "2026-11-22T02:45:31.799Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:23.872Z"
+      "source_checked_at": "2026-11-22T02:45:31.799Z"
     },
     "surfsnow_000000003083": {
       "product_id": "000000003083",
@@ -1685,9 +1685,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-11-21T03:39:25.331Z",
+      "checked_at": "2026-11-22T02:45:33.210Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:25.331Z"
+      "source_checked_at": "2026-11-22T02:45:33.210Z"
     },
     "surfsnow_000000003084": {
       "product_id": "000000003084",
@@ -1700,9 +1700,9 @@
       "status": "販售期限已過",
       "sale_start": "2026-09-10",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-11-21T03:39:26.876Z",
+      "checked_at": "2026-11-22T02:45:34.275Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:26.876Z"
+      "source_checked_at": "2026-11-22T02:45:34.275Z"
     },
     "surfsnow_000000003086": {
       "product_id": "000000003086",
@@ -1715,9 +1715,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-11-21T03:39:28.430Z",
+      "checked_at": "2026-11-22T02:45:35.684Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:28.430Z"
+      "source_checked_at": "2026-11-22T02:45:35.684Z"
     },
     "surfsnow_000000003087": {
       "product_id": "000000003087",
@@ -1730,9 +1730,9 @@
       "status": "販售期限已過",
       "sale_start": "2026-09-12",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-11-21T03:39:29.998Z",
+      "checked_at": "2026-11-22T02:45:37.114Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:29.998Z"
+      "source_checked_at": "2026-11-22T02:45:37.114Z"
     },
     "surfsnow_000000003091": {
       "product_id": "000000003091",
@@ -1745,9 +1745,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-11-21T03:39:31.039Z",
+      "checked_at": "2026-11-22T02:45:38.573Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:31.039Z"
+      "source_checked_at": "2026-11-22T02:45:38.573Z"
     },
     "surfsnow_000000003093": {
       "product_id": "000000003093",
@@ -1760,9 +1760,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-11-21T03:39:32.161Z",
+      "checked_at": "2026-11-22T02:45:40.011Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:32.161Z"
+      "source_checked_at": "2026-11-22T02:45:40.011Z"
     },
     "surfsnow_000000003094": {
       "product_id": "000000003094",
@@ -1775,9 +1775,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-11-21T03:39:33.597Z",
+      "checked_at": "2026-11-22T02:45:41.310Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:33.597Z"
+      "source_checked_at": "2026-11-22T02:45:41.310Z"
     },
     "surfsnow_000000003106": {
       "product_id": "000000003106",
@@ -1790,9 +1790,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2027-03-28",
-      "checked_at": "2026-11-21T03:39:35.100Z",
+      "checked_at": "2026-11-22T02:45:42.442Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:35.100Z"
+      "source_checked_at": "2026-11-22T02:45:42.442Z"
     },
     "surfsnow_000000003110": {
       "product_id": "000000003110",
@@ -1805,9 +1805,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-11-21T03:39:36.570Z",
+      "checked_at": "2026-11-22T02:45:43.762Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:36.570Z"
+      "source_checked_at": "2026-11-22T02:45:43.762Z"
     },
     "surfsnow_000000003112": {
       "product_id": "000000003112",
@@ -1820,9 +1820,9 @@
       "status": "販售期限已過",
       "sale_start": "2026-10-01",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-11-21T03:39:37.603Z",
+      "checked_at": "2026-11-22T02:45:45.173Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:37.603Z"
+      "source_checked_at": "2026-11-22T02:45:45.173Z"
     },
     "surfsnow_000000003114": {
       "product_id": "000000003114",
@@ -1835,9 +1835,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-05",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:39:39.066Z",
+      "checked_at": "2026-11-22T02:45:46.379Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:39.066Z"
+      "source_checked_at": "2026-11-22T02:45:46.379Z"
     },
     "surfsnow_000000003121": {
       "product_id": "000000003121",
@@ -1850,9 +1850,9 @@
       "status": "販售期限已過",
       "sale_start": "2026-10-01",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-11-21T03:39:40.198Z",
+      "checked_at": "2026-11-22T02:45:47.417Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:40.198Z"
+      "source_checked_at": "2026-11-22T02:45:47.417Z"
     },
     "surfsnow_000000003123": {
       "product_id": "000000003123",
@@ -1865,9 +1865,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-05",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:39:41.784Z",
+      "checked_at": "2026-11-22T02:45:48.864Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:41.784Z"
+      "source_checked_at": "2026-11-22T02:45:48.864Z"
     },
     "surfsnow_000000003137": {
       "product_id": "000000003137",
@@ -1880,9 +1880,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2027-02-28",
-      "checked_at": "2026-11-21T03:39:43.356Z",
+      "checked_at": "2026-11-22T02:45:50.265Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:43.356Z"
+      "source_checked_at": "2026-11-22T02:45:50.265Z"
     },
     "surfsnow_000000003138": {
       "product_id": "000000003138",
@@ -1895,9 +1895,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2027-02-28",
-      "checked_at": "2026-11-21T03:39:44.909Z",
+      "checked_at": "2026-11-22T02:45:51.384Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:44.909Z"
+      "source_checked_at": "2026-11-22T02:45:51.384Z"
     },
     "surfsnow_000000003147": {
       "product_id": "000000003147",
@@ -1910,9 +1910,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-12",
       "sale_end": "2027-02-28",
-      "checked_at": "2026-11-21T03:39:46.320Z",
+      "checked_at": "2026-11-22T02:45:52.424Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:46.320Z"
+      "source_checked_at": "2026-11-22T02:45:52.424Z"
     },
     "surfsnow_000000003158": {
       "product_id": "000000003158",
@@ -1925,9 +1925,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-14",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:39:47.366Z",
+      "checked_at": "2026-11-22T02:45:53.547Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:47.366Z"
+      "source_checked_at": "2026-11-22T02:45:53.547Z"
     },
     "surfsnow_000000003159": {
       "product_id": "000000003159",
@@ -1940,9 +1940,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-14",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:39:48.409Z",
+      "checked_at": "2026-11-22T02:45:54.583Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:48.409Z"
+      "source_checked_at": "2026-11-22T02:45:54.583Z"
     },
     "surfsnow_000000003160": {
       "product_id": "000000003160",
@@ -1955,9 +1955,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-14",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:39:49.843Z",
+      "checked_at": "2026-11-22T02:45:55.722Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:49.843Z"
+      "source_checked_at": "2026-11-22T02:45:55.722Z"
     },
     "surfsnow_000000003161": {
       "product_id": "000000003161",
@@ -1970,9 +1970,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-14",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:39:51.408Z",
+      "checked_at": "2026-11-22T02:45:57.030Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:51.408Z"
+      "source_checked_at": "2026-11-22T02:45:57.030Z"
     },
     "surfsnow_000000003162": {
       "product_id": "000000003162",
@@ -1985,9 +1985,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-11-21T03:39:52.952Z",
+      "checked_at": "2026-11-22T02:45:58.360Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:52.952Z"
+      "source_checked_at": "2026-11-22T02:45:58.360Z"
     },
     "surfsnow_000000003175": {
       "product_id": "000000003175",
@@ -2000,9 +2000,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-14",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:39:54.565Z",
+      "checked_at": "2026-11-22T02:45:59.656Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:54.565Z"
+      "source_checked_at": "2026-11-22T02:45:59.656Z"
     },
     "surfsnow_000000003176": {
       "product_id": "000000003176",
@@ -2015,9 +2015,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-14",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:39:55.621Z",
+      "checked_at": "2026-11-22T02:46:00.782Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:55.621Z"
+      "source_checked_at": "2026-11-22T02:46:00.782Z"
     },
     "surfsnow_000000003177": {
       "product_id": "000000003177",
@@ -2030,9 +2030,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-14",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:39:57.009Z",
+      "checked_at": "2026-11-22T02:46:02.312Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:57.009Z"
+      "source_checked_at": "2026-11-22T02:46:02.312Z"
     },
     "surfsnow_000000003178": {
       "product_id": "000000003178",
@@ -2045,9 +2045,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-09-14",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:39:58.531Z",
+      "checked_at": "2026-11-22T02:46:03.748Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:58.531Z"
+      "source_checked_at": "2026-11-22T02:46:03.748Z"
     },
     "surfsnow_000000003179": {
       "product_id": "000000003179",
@@ -2060,9 +2060,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-11-21T03:39:59.639Z",
+      "checked_at": "2026-11-22T02:46:05.047Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:39:59.639Z"
+      "source_checked_at": "2026-11-22T02:46:05.047Z"
     },
     "surfsnow_000000003191": {
       "product_id": "000000003191",
@@ -2075,9 +2075,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:01.205Z",
+      "checked_at": "2026-11-22T02:46:06.086Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:01.205Z"
+      "source_checked_at": "2026-11-22T02:46:06.086Z"
     },
     "surfsnow_000000003192": {
       "product_id": "000000003192",
@@ -2090,9 +2090,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:02.283Z",
+      "checked_at": "2026-11-22T02:46:07.202Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:02.283Z"
+      "source_checked_at": "2026-11-22T02:46:07.202Z"
     },
     "surfsnow_000000003193": {
       "product_id": "000000003193",
@@ -2105,9 +2105,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:03.743Z",
+      "checked_at": "2026-11-22T02:46:08.601Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:03.743Z"
+      "source_checked_at": "2026-11-22T02:46:08.601Z"
     },
     "surfsnow_000000003194": {
       "product_id": "000000003194",
@@ -2120,9 +2120,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:04.926Z",
+      "checked_at": "2026-11-22T02:46:09.665Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:04.926Z"
+      "source_checked_at": "2026-11-22T02:46:09.665Z"
     },
     "surfsnow_000000003195": {
       "product_id": "000000003195",
@@ -2135,9 +2135,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-11",
-      "checked_at": "2026-11-21T03:40:06.473Z",
+      "checked_at": "2026-11-22T02:46:10.819Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:06.473Z"
+      "source_checked_at": "2026-11-22T02:46:10.819Z"
     },
     "surfsnow_000000003196": {
       "product_id": "000000003196",
@@ -2150,9 +2150,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:40:07.880Z",
+      "checked_at": "2026-11-22T02:46:12.142Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:07.880Z"
+      "source_checked_at": "2026-11-22T02:46:12.142Z"
     },
     "surfsnow_000000003197": {
       "product_id": "000000003197",
@@ -2165,9 +2165,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-27",
-      "checked_at": "2026-11-21T03:40:08.930Z",
+      "checked_at": "2026-11-22T02:46:13.170Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:08.930Z"
+      "source_checked_at": "2026-11-22T02:46:13.170Z"
     },
     "surfsnow_000000003198": {
       "product_id": "000000003198",
@@ -2180,9 +2180,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-27",
-      "checked_at": "2026-11-21T03:40:10.076Z",
+      "checked_at": "2026-11-22T02:46:14.203Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:10.076Z"
+      "source_checked_at": "2026-11-22T02:46:14.203Z"
     },
     "surfsnow_000000003199": {
       "product_id": "000000003199",
@@ -2196,9 +2196,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:11.127Z",
+      "checked_at": "2026-11-22T02:46:15.744Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:11.127Z"
+      "source_checked_at": "2026-11-22T02:46:15.744Z"
     },
     "surfsnow_000000003200": {
       "product_id": "000000003200",
@@ -2212,9 +2212,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:12.274Z",
+      "checked_at": "2026-11-22T02:46:16.794Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:12.274Z"
+      "source_checked_at": "2026-11-22T02:46:16.794Z"
     },
     "surfsnow_000000003201": {
       "product_id": "000000003201",
@@ -2228,9 +2228,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:13.428Z",
+      "checked_at": "2026-11-22T02:46:18.121Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:13.428Z"
+      "source_checked_at": "2026-11-22T02:46:18.121Z"
     },
     "surfsnow_000000003202": {
       "product_id": "000000003202",
@@ -2244,9 +2244,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:14.513Z",
+      "checked_at": "2026-11-22T02:46:19.165Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:14.513Z"
+      "source_checked_at": "2026-11-22T02:46:19.165Z"
     },
     "surfsnow_000000003203": {
       "product_id": "000000003203",
@@ -2260,9 +2260,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:15.656Z",
+      "checked_at": "2026-11-22T02:46:20.466Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:15.656Z"
+      "source_checked_at": "2026-11-22T02:46:20.466Z"
     },
     "surfsnow_000000003204": {
       "product_id": "000000003204",
@@ -2276,9 +2276,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:17.261Z",
+      "checked_at": "2026-11-22T02:46:21.878Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:17.261Z"
+      "source_checked_at": "2026-11-22T02:46:21.878Z"
     },
     "surfsnow_000000003205": {
       "product_id": "000000003205",
@@ -2291,9 +2291,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:40:18.362Z",
+      "checked_at": "2026-11-22T02:46:23.289Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:18.362Z"
+      "source_checked_at": "2026-11-22T02:46:23.289Z"
     },
     "surfsnow_000000003206": {
       "product_id": "000000003206",
@@ -2306,9 +2306,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:40:19.466Z",
+      "checked_at": "2026-11-22T02:46:24.405Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:19.466Z"
+      "source_checked_at": "2026-11-22T02:46:24.405Z"
     },
     "surfsnow_000000003211": {
       "product_id": "000000003211",
@@ -2321,9 +2321,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-27",
-      "checked_at": "2026-11-21T03:40:21.089Z",
+      "checked_at": "2026-11-22T02:46:25.529Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:21.089Z"
+      "source_checked_at": "2026-11-22T02:46:25.529Z"
     },
     "surfsnow_000000003212": {
       "product_id": "000000003212",
@@ -2336,9 +2336,9 @@
       "status": "販售期限已過",
       "sale_start": "2026-10-01",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-11-21T03:40:22.131Z",
+      "checked_at": "2026-11-22T02:46:26.627Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:22.131Z"
+      "source_checked_at": "2026-11-22T02:46:26.627Z"
     },
     "surfsnow_000000003213": {
       "product_id": "000000003213",
@@ -2351,9 +2351,9 @@
       "status": "販售期限已過",
       "sale_start": "2026-10-01",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-11-21T03:40:23.701Z",
+      "checked_at": "2026-11-22T02:46:27.744Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:23.701Z"
+      "source_checked_at": "2026-11-22T02:46:27.744Z"
     },
     "surfsnow_000000003215": {
       "product_id": "000000003215",
@@ -2366,9 +2366,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-13",
-      "checked_at": "2026-11-21T03:40:25.261Z",
+      "checked_at": "2026-11-22T02:46:29.137Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:25.261Z"
+      "source_checked_at": "2026-11-22T02:46:29.137Z"
     },
     "surfsnow_000000003216": {
       "product_id": "000000003216",
@@ -2381,9 +2381,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-13",
-      "checked_at": "2026-11-21T03:40:26.474Z",
+      "checked_at": "2026-11-22T02:46:30.527Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:26.474Z"
+      "source_checked_at": "2026-11-22T02:46:30.527Z"
     },
     "surfsnow_000000003217": {
       "product_id": "000000003217",
@@ -2396,9 +2396,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2027-03-07",
-      "checked_at": "2026-11-21T03:40:27.887Z",
+      "checked_at": "2026-11-22T02:46:31.562Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:27.887Z"
+      "source_checked_at": "2026-11-22T02:46:31.562Z"
     },
     "surfsnow_000000003218": {
       "product_id": "000000003218",
@@ -2411,9 +2411,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2027-03-07",
-      "checked_at": "2026-11-21T03:40:29.324Z",
+      "checked_at": "2026-11-22T02:46:32.950Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:29.324Z"
+      "source_checked_at": "2026-11-22T02:46:32.950Z"
     },
     "surfsnow_000000003219": {
       "product_id": "000000003219",
@@ -2426,9 +2426,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-11-21T03:40:30.455Z",
+      "checked_at": "2026-11-22T02:46:33.989Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:30.455Z"
+      "source_checked_at": "2026-11-22T02:46:33.989Z"
     },
     "surfsnow_000000003220": {
       "product_id": "000000003220",
@@ -2441,9 +2441,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-11-21T03:40:31.940Z",
+      "checked_at": "2026-11-22T02:46:35.020Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:31.940Z"
+      "source_checked_at": "2026-11-22T02:46:35.020Z"
     },
     "surfsnow_000000003238": {
       "product_id": "000000003238",
@@ -2456,9 +2456,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:33.382Z",
+      "checked_at": "2026-11-22T02:46:36.341Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:33.382Z"
+      "source_checked_at": "2026-11-22T02:46:36.341Z"
     },
     "surfsnow_000000003239": {
       "product_id": "000000003239",
@@ -2471,9 +2471,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:34.754Z",
+      "checked_at": "2026-11-22T02:46:37.498Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:34.754Z"
+      "source_checked_at": "2026-11-22T02:46:37.498Z"
     },
     "surfsnow_000000003240": {
       "product_id": "000000003240",
@@ -2486,9 +2486,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:35.817Z",
+      "checked_at": "2026-11-22T02:46:38.534Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:35.817Z"
+      "source_checked_at": "2026-11-22T02:46:38.534Z"
     },
     "surfsnow_000000003241": {
       "product_id": "000000003241",
@@ -2501,9 +2501,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:36.944Z",
+      "checked_at": "2026-11-22T02:46:39.652Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:36.944Z"
+      "source_checked_at": "2026-11-22T02:46:39.652Z"
     },
     "surfsnow_000000003242": {
       "product_id": "000000003242",
@@ -2516,9 +2516,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-11",
-      "checked_at": "2026-11-21T03:40:38.270Z",
+      "checked_at": "2026-11-22T02:46:41.050Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:38.270Z"
+      "source_checked_at": "2026-11-22T02:46:41.050Z"
     },
     "surfsnow_000000003243": {
       "product_id": "000000003243",
@@ -2531,9 +2531,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:40:39.332Z",
+      "checked_at": "2026-11-22T02:46:42.087Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:39.332Z"
+      "source_checked_at": "2026-11-22T02:46:42.087Z"
     },
     "surfsnow_000000003244": {
       "product_id": "000000003244",
@@ -2546,9 +2546,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-27",
-      "checked_at": "2026-11-21T03:40:40.861Z",
+      "checked_at": "2026-11-22T02:46:43.210Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:40.861Z"
+      "source_checked_at": "2026-11-22T02:46:43.210Z"
     },
     "surfsnow_000000003245": {
       "product_id": "000000003245",
@@ -2561,9 +2561,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-27",
-      "checked_at": "2026-11-21T03:40:41.904Z",
+      "checked_at": "2026-11-22T02:46:44.337Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:41.904Z"
+      "source_checked_at": "2026-11-22T02:46:44.337Z"
     },
     "surfsnow_000000003246": {
       "product_id": "000000003246",
@@ -2577,9 +2577,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:43.347Z",
+      "checked_at": "2026-11-22T02:46:45.651Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:43.347Z"
+      "source_checked_at": "2026-11-22T02:46:45.651Z"
     },
     "surfsnow_000000003247": {
       "product_id": "000000003247",
@@ -2593,9 +2593,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:44.393Z",
+      "checked_at": "2026-11-22T02:46:47.296Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:44.393Z"
+      "source_checked_at": "2026-11-22T02:46:47.296Z"
     },
     "surfsnow_000000003248": {
       "product_id": "000000003248",
@@ -2609,9 +2609,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:45.515Z",
+      "checked_at": "2026-11-22T02:46:48.427Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:45.515Z"
+      "source_checked_at": "2026-11-22T02:46:48.427Z"
     },
     "surfsnow_000000003249": {
       "product_id": "000000003249",
@@ -2625,9 +2625,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:46.601Z",
+      "checked_at": "2026-11-22T02:46:49.548Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:46.601Z"
+      "source_checked_at": "2026-11-22T02:46:49.548Z"
     },
     "surfsnow_000000003250": {
       "product_id": "000000003250",
@@ -2641,9 +2641,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:48.176Z",
+      "checked_at": "2026-11-22T02:46:50.938Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:48.176Z"
+      "source_checked_at": "2026-11-22T02:46:50.938Z"
     },
     "surfsnow_000000003251": {
       "product_id": "000000003251",
@@ -2657,9 +2657,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-04",
-      "checked_at": "2026-11-21T03:40:49.246Z",
+      "checked_at": "2026-11-22T02:46:52.404Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:49.246Z"
+      "source_checked_at": "2026-11-22T02:46:52.404Z"
     },
     "surfsnow_000000003276": {
       "product_id": "000000003276",
@@ -2672,9 +2672,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:40:50.754Z",
+      "checked_at": "2026-11-22T02:46:53.528Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:50.754Z"
+      "source_checked_at": "2026-11-22T02:46:53.528Z"
     },
     "surfsnow_000000003277": {
       "product_id": "000000003277",
@@ -2687,9 +2687,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:40:52.161Z",
+      "checked_at": "2026-11-22T02:46:54.651Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:52.161Z"
+      "source_checked_at": "2026-11-22T02:46:54.651Z"
     },
     "surfsnow_000000003278": {
       "product_id": "000000003278",
@@ -2702,9 +2702,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-11-21T03:40:53.209Z",
+      "checked_at": "2026-11-22T02:46:55.686Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:53.209Z"
+      "source_checked_at": "2026-11-22T02:46:55.686Z"
     },
     "surfsnow_000000003279": {
       "product_id": "000000003279",
@@ -2717,9 +2717,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-11-21T03:40:54.245Z",
+      "checked_at": "2026-11-22T02:46:56.740Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:54.245Z"
+      "source_checked_at": "2026-11-22T02:46:56.740Z"
     },
     "surfsnow_000000003288": {
       "product_id": "000000003288",
@@ -2732,9 +2732,9 @@
       "status": "販售期限已過",
       "sale_start": "2026-10-01",
       "sale_end": "2026-10-31",
-      "checked_at": "2026-11-21T03:40:55.587Z",
+      "checked_at": "2026-11-22T02:46:57.959Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:55.587Z"
+      "source_checked_at": "2026-11-22T02:46:57.959Z"
     },
     "surfsnow_000000003292": {
       "product_id": "000000003292",
@@ -2747,9 +2747,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-27",
-      "checked_at": "2026-11-21T03:40:56.625Z",
+      "checked_at": "2026-11-22T02:46:59.287Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:56.625Z"
+      "source_checked_at": "2026-11-22T02:46:59.287Z"
     },
     "surfsnow_000000003299": {
       "product_id": "000000003299",
@@ -2762,9 +2762,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-13",
-      "checked_at": "2026-11-21T03:40:58.027Z",
+      "checked_at": "2026-11-22T02:47:00.702Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:58.027Z"
+      "source_checked_at": "2026-11-22T02:47:00.702Z"
     },
     "surfsnow_000000003300": {
       "product_id": "000000003300",
@@ -2777,9 +2777,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-13",
-      "checked_at": "2026-11-21T03:40:59.260Z",
+      "checked_at": "2026-11-22T02:47:01.743Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:40:59.260Z"
+      "source_checked_at": "2026-11-22T02:47:01.743Z"
     },
     "surfsnow_000000003301": {
       "product_id": "000000003301",
@@ -2792,9 +2792,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2027-03-07",
-      "checked_at": "2026-11-21T03:41:00.848Z",
+      "checked_at": "2026-11-22T02:47:02.807Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:00.848Z"
+      "source_checked_at": "2026-11-22T02:47:02.807Z"
     },
     "surfsnow_000000003302": {
       "product_id": "000000003302",
@@ -2807,9 +2807,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2027-03-07",
-      "checked_at": "2026-11-21T03:41:01.926Z",
+      "checked_at": "2026-11-22T02:47:03.937Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:01.926Z"
+      "source_checked_at": "2026-11-22T02:47:03.937Z"
     },
     "surfsnow_000000003305": {
       "product_id": "000000003305",
@@ -2822,9 +2822,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-11-21T03:41:03.365Z",
+      "checked_at": "2026-11-22T02:47:05.340Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:03.365Z"
+      "source_checked_at": "2026-11-22T02:47:05.340Z"
     },
     "surfsnow_000000003306": {
       "product_id": "000000003306",
@@ -2837,9 +2837,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-18",
-      "checked_at": "2026-11-21T03:41:04.810Z",
+      "checked_at": "2026-11-22T02:47:06.460Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:04.810Z"
+      "source_checked_at": "2026-11-22T02:47:06.460Z"
     },
     "surfsnow_000000003322": {
       "product_id": "000000003322",
@@ -2853,9 +2853,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-11-21T03:41:05.938Z",
+      "checked_at": "2026-11-22T02:47:07.601Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:05.938Z"
+      "source_checked_at": "2026-11-22T02:47:07.601Z"
     },
     "surfsnow_000000003323": {
       "product_id": "000000003323",
@@ -2869,9 +2869,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-11-21T03:41:07.283Z",
+      "checked_at": "2026-11-22T02:47:08.904Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:07.283Z"
+      "source_checked_at": "2026-11-22T02:47:08.904Z"
     },
     "surfsnow_000000003325": {
       "product_id": "000000003325",
@@ -2884,9 +2884,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-13",
-      "checked_at": "2026-11-21T03:41:08.597Z",
+      "checked_at": "2026-11-22T02:47:10.288Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:08.597Z"
+      "source_checked_at": "2026-11-22T02:47:10.288Z"
     },
     "surfsnow_000000003326": {
       "product_id": "000000003326",
@@ -2899,9 +2899,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-13",
-      "checked_at": "2026-11-21T03:41:09.952Z",
+      "checked_at": "2026-11-22T02:47:11.659Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:09.952Z"
+      "source_checked_at": "2026-11-22T02:47:11.659Z"
     },
     "surfsnow_000000003327": {
       "product_id": "000000003327",
@@ -2914,9 +2914,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-10",
-      "checked_at": "2026-11-21T03:41:11.173Z",
+      "checked_at": "2026-11-22T02:47:13.032Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:11.173Z"
+      "source_checked_at": "2026-11-22T02:47:13.032Z"
     },
     "surfsnow_000000003330": {
       "product_id": "000000003330",
@@ -2930,9 +2930,9 @@
       "status": "販售期限已過",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-15",
-      "checked_at": "2026-11-21T03:41:12.553Z",
+      "checked_at": "2026-11-22T02:47:14.372Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:12.553Z"
+      "source_checked_at": "2026-11-22T02:47:14.372Z"
     },
     "surfsnow_000000003333": {
       "product_id": "000000003333",
@@ -2946,9 +2946,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-31",
-      "checked_at": "2026-11-21T03:41:14.002Z",
+      "checked_at": "2026-11-22T02:47:15.761Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:14.002Z"
+      "source_checked_at": "2026-11-22T02:47:15.761Z"
     },
     "surfsnow_000000003337": {
       "product_id": "000000003337",
@@ -2962,9 +2962,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-11-21T03:41:15.155Z",
+      "checked_at": "2026-11-22T02:47:16.813Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:15.155Z"
+      "source_checked_at": "2026-11-22T02:47:16.813Z"
     },
     "surfsnow_000000003338": {
       "product_id": "000000003338",
@@ -2978,9 +2978,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-15",
-      "checked_at": "2026-11-21T03:41:16.625Z",
+      "checked_at": "2026-11-22T02:47:18.218Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:16.625Z"
+      "source_checked_at": "2026-11-22T02:47:18.218Z"
     },
     "surfsnow_000000003343": {
       "product_id": "000000003343",
@@ -2994,9 +2994,9 @@
       "status": "販售期限已過",
       "sale_start": "2026-10-01",
       "sale_end": "2026-11-15",
-      "checked_at": "2026-11-21T03:41:18.071Z",
+      "checked_at": "2026-11-22T02:47:19.337Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:18.071Z"
+      "source_checked_at": "2026-11-22T02:47:19.337Z"
     },
     "surfsnow_000000003416": {
       "product_id": "000000003416",
@@ -3009,9 +3009,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-01",
       "sale_end": "2026-12-10",
-      "checked_at": "2026-11-21T03:41:19.431Z",
+      "checked_at": "2026-11-22T02:47:20.381Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:19.431Z"
+      "source_checked_at": "2026-11-22T02:47:20.381Z"
     },
     "surfsnow_000000003446": {
       "product_id": "000000003446",
@@ -3024,9 +3024,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-13",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:41:20.511Z",
+      "checked_at": "2026-11-22T02:47:21.492Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:20.511Z"
+      "source_checked_at": "2026-11-22T02:47:21.492Z"
     },
     "surfsnow_000000003450": {
       "product_id": "000000003450",
@@ -3039,9 +3039,9 @@
       "status": "販售期間內（未驗證庫存）",
       "sale_start": "2026-10-13",
       "sale_end": "2026-11-30",
-      "checked_at": "2026-11-21T03:41:21.618Z",
+      "checked_at": "2026-11-22T02:47:22.556Z",
       "source_status": "ok",
-      "source_checked_at": "2026-11-21T03:41:21.618Z"
+      "source_checked_at": "2026-11-22T02:47:22.556Z"
     }
   },
   "scout_news": {
